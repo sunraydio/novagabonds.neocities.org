@@ -1,0 +1,614 @@
+@font-face {
+  font-family: "Blisstwin";
+ src: url("/fonts/Blisstwin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HeroesLegend";
+  src:url("/fonts/HeroesLegend.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HopeTake";
+  src:url("/fonts/Hope Take.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Umbrage";
+  src:url("/fonts/Undyingumbrage.ttf") format("truetype");
+}
+
+body {
+  /*background-image: url(https://sadhost.neocities.org/images/tiles/azulestrellas.gif);*/
+  background-color: #d84c05;
+  background-image: url(https://www.transparenttextures.com/patterns/gplay.png);
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.grid {
+  display: grid; 
+  grid-template-columns: repeat(5,minmax(100px, 1fr)); 
+  grid-template-rows: 1fr 2fr; 
+  justify-items:center;
+  gap: 2em;
+  min-height: 100vh;
+  grid-template-areas: 
+    "header header header header header"
+    "sidebar1 main main main sidebar2"
+    "footer footer footer footer footer"; 
+}
+
+header {
+  grid-area: header;
+  min-width: 50em;
+  padding: 1em;
+  margin-top:-1em;
+  /*margin: auto;
+  z-index:0;
+  width: 100em;*/
+  
+}
+
+main {
+  grid-area: main;
+  margin-top: -6em;
+  margin-bottom: 2em;
+  max-width: 50em;
+  /*width:50em;
+  z-index:0;*/
+}
+
+.main2 {
+  grid-area: main;
+  padding:2em; 
+  background-color: #093557; 
+  margin-top: -8em; 
+  max-height: 28em; 
+  min-width: 50em;
+  overflow-y:scroll;
+}
+
+.corkboard {
+  width: 70em;
+  height: 40em;
+  margin: auto;
+  margin-top: 2em;
+  background-image: url(https://i.ibb.co/3N3m3pv/paper003.jpg); /* from https://hekate2.github.io/website-tools/archive/backgrounds.html */
+  border: 15px groove #b0b0b0;
+}
+
+sidebar1 {
+  grid-area: sidebar1;
+  width: 10em;
+  height:15em;
+  padding: 2em;
+  margin-top:-3em;
+  background-color: #093557;
+  border-radius:50%;
+  background-image: url(https://sadhost.neocities.org/images/tiles/backstar.gif);
+  overflow-x:hidden;
+  overflow-y:hidden;
+  border-style:double;
+  margin-left:5em;
+  border-color: #ff9106;
+  border-width: 8px;
+  z-index:0;
+}
+
+sidebar2 {
+  grid-area: sidebar2;
+  width: 10em;
+  height:15em;
+  padding: 2em;
+  margin-top: -3em;
+  background-color: #093557;
+  border-radius:50%;
+  background-image: url(https://sadhost.neocities.org/images/tiles/backstar.gif);
+  overflow-x:hidden;
+  overflow-y:hidden;
+  border-style:double;
+  margin-right: 5em;
+  border-color: #ff9106;
+  border-width: 8px;
+  z-index:0;
+}
+
+
+footer {
+  grid-area:footer;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.lettergrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  align-items: center;
+  overflow: hidden;
+  gap: 2em;
+  padding-bottom: 4em;
+}
+
+.lettergrid > div {
+  width: 10em;
+  height: 10em;
+  background-image: url(/images/starjar1.png);
+  background-size: contain;
+  text-align:center;
+  transition: background-image 4s;
+}
+
+.lettergrid > div:hover {
+  background-image: url(/images/starjar2.png);
+  transform:rotate(20deg);
+}
+
+.jar {
+  width: 10em;
+  height: 10em;
+  align-self: center;
+  line-height: 8em;
+}
+
+.giftgrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  align-items: center;
+  overflow: hidden;
+  gap: 2em;
+  padding-bottom: 4em;
+}
+
+.giftgrid > div {
+  width: 12em;
+  height: 12em;
+  background-image: url(/images/giftletter1.png);
+  background-size: contain;
+  text-align: center;
+  margin-top: 0;
+  transition: background-image 2s;
+}
+
+.giftgrid > div:hover {
+  background-image: url(/images/giftletter2.png);
+}
+
+.gift {
+  width: 12em;
+  height: 12em;
+  align-self: center;
+  line-height: 10em;
+}
+
+.link {
+  position: absolute;
+  width: 10em;
+  height: 10em;
+  top:0;
+  left: 0;
+  z-index:1;
+}
+
+img {
+  float:left;
+  margin: 1%;
+  margin-right: 2%;
+  border-radius: 4px;
+}
+
+p {
+  font-family: "Blisstwin";
+  color: #ffffff;
+  font-size: 1.2vw;
+  margin: 10px;
+}
+
+p3 {
+  font-family: "Blisstwin";
+  color: #eeeec7;
+  font-size: 1.2vw;
+  line-height: 1.5em;
+  margin: 10px;
+}
+
+h1 {
+  font-family: "Umbrage";
+  color: #ffffff;
+  font-size: 50px;
+  line-height:50px;
+  text-align: center;
+  text-shadow:2px 2px black; 
+}
+
+a:link {
+   color: white;
+  	text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  	text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  	text-decoration: none;
+}
+
+a:active {
+  color: white;
+  	text-decoration: none;
+  	
+}
+
+button {
+  background-color: #eee693;
+}
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  float:none;
+  overflow-x: hidden;
+  margin-left: 2vw;
+  margin-right: -14vw;
+  width: 10vw;
+}
+
+li {
+  width: 10vw;
+  text-align: center;
+  float: none;
+  overflow-x:hidden;
+  font-family: "Blisstwin";
+  color:black;
+  font-size: 1.2vw;
+  display: block;
+  background-color: #d0a04e;
+  border: 1px solid black;
+
+}
+
+li a:hover {
+  background-color: #a5272e;
+  color: white;
+}
+
+li a {
+  font-family: "Blisstwin";
+  text-align: center;
+  color:black;
+  font-size: 1.2vw;
+  display: block;
+  padding: 0.2vw;
+  background-color: #d0a04e;
+  margin:0;
+}
+
+.container {
+  background-color: black;
+  background-image: url(https://sadhost.neocities.org/images/tiles/backstar.gif);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow: hidden;
+}
+
+.marquee-items {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.marquee {
+  display: flex;
+  width: 200%;
+  animation: marqueeSlide 15s linear infinite;
+}
+
+@keyframes marqueeSlide {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
+
+
+.float {
+font-size:2em;
+color: #000;
+animation-name: floating;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+0% { transform: translate(0, 0px); }
+50% { transform: translate(0, 15px); }
+100% { transform: translate(0, -0px); }
+}
+
+.notification {
+  /*background-color: #a84f00;*/
+  background-color: #0b0b68;
+  background-image: url(https://sadhost.neocities.org/images/tiles/stars3.gif);
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  width:4em;
+  font-family: "Blisstwin";
+  font-size: 1em;
+  float:right;
+  text-align:center;
+  margin-right: -6em;
+  margin-top: 1em;
+}
+
+.notification:hover {
+  background: #2e2efe;
+}
+
+.notification .badge {
+  position: absolute;
+  top: 0;
+  right: -6.5em;
+  padding: 5px 12px;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #000040;
+  font-family: "Blisstwin";
+}
+
+ /* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 40em;
+  height:28em;
+  background-color: #36368e;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left:-40em;
+  overflow-y:scroll;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+} 
+
+
+.inbox {
+  float:right;
+  margin-right:8.5em;
+  margin-top:-10em;
+}
+
+.tooltip {
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.note1 {
+  background-image: url(/images/note1.png);
+  height: 12em;
+  width: 12em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-left: 10em;
+  margin-top: 2em;
+  rotate: 10deg;
+}
+
+.note1:hover {
+  rotate: 2deg;
+}
+
+.note2 {
+  background-image: url(/images/note2.png);
+  height: 30em;
+  width: 30em;
+  margin-top: 11.4em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.text2 {
+  height: 20em;
+  width: 13em;
+  margin-left: 6em;
+  margin-top: 6em;
+  color: black;
+  font-family: "HopeTake";
+  font-size: 1.2em;
+}
+
+.note3 {
+  background-image: url(/images/note1.png);
+  height: 12em;
+  width: 12em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-left: 50em;
+  margin-top: 7em;
+  rotate: -10deg;
+}
+
+.note3:hover {
+  rotate: -5deg;
+}
+
+.car {
+  background-image: url(/images/car.png);
+  height: 10em;
+  width: 10em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-left: 18em;
+  margin-top: 3em;
+  rotate: 14deg;
+  transition: translate 3s;
+}
+
+.car:hover {
+  translate: 27em 5em;
+}
+
+.polaroid {
+  width: 7em;
+  height: 7em;
+  margin-left: 3em;
+  margin-top: 2.4em;
+  border-radius: 0px;
+}
+
+.note4 {
+  background-image: url(/images/stickynote2.png);
+  width: 13em;
+  height: 13em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-left: 28em;
+  margin-top: 12em;
+  rotate: 4deg;
+}
+
+.note4:hover {
+  rotate: -2deg;
+}
+
+.text3 {
+  height: 10em;
+  width: 10em;
+  margin-left: 2em;
+  margin-top: 3em;
+  color: black;
+  font-family: "HopeTake";
+  font-size: 1em;
+}
+
+.pin {
+  width: 5em;
+  height: 5em;
+  object-fit: contain;
+  position: absolute;
+}
+
+.pin:hover {
+  rotate: 4deg;
+}
+
+.poster {
+  height: 8em;
+  margin-left: 54em;
+  margin-top: 22em;
+  position: absolute;
+  border-radius: 0;
+  rotate: 10deg;
+  filter: drop-shadow(10px 4px 8px #a18267);
+}
+
+.poster2 {
+  height: 10em;
+  position: absolute;
+  border-radius: 0;
+  filter: drop-shadow(10px 4px 8px #a18267);
+  margin-left: 40em;
+  margin-top: 2em;
+  rotate: -4deg;
+}
+
+.object {
+  height: 8em;
+  position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,140 @@
+@font-face {
+  font-family: "Blisstwin";
+ src: url("/fonts/Blisstwin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Porto-Qastelo";
+ src: url("/fonts/Porto-Qastelo.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Starshine";
+ src: url("/fonts/Starshine.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HopeTake";
+  src:url("/fonts/Hope Take.ttf") format("truetype");
+}
+
+p {
+  font-family: "HopeTake";
+  font-size: 1.3em;
+  margin: 10px;
+}
+
+body {
+  /*background-image: url(https://sadhost.neocities.org/images/tiles/azulestrellas.gif);*/
+  background-color: #2d648d;
+  background-image: url(https://www.transparenttextures.com/patterns/gplay.png);
+  overflow-x: hidden;
+  margin: 0;
+}
+
+main {
+  background-image: url(/images/notebook.png);
+  min-width: 1050px;
+  min-height: 671px;
+  background-repeat:no-repeat;
+  background-size: contain;
+  margin-top: 2em;
+  margin-left: 4em;
+}
+
+sidebar {
+  max-width: 16em;
+  min-height: 8em;
+  margin-right: 4em;
+  margin-top: 2em;
+  float: right;
+  background-color: white;
+  background-image: url(https://sadhost.neocities.org/images/tiles/aquagalaxy_small.gif);
+  border-radius: 10px;
+  padding: 1em;
+}
+
+.info {
+  margin-left: 10em;
+  margin-top: 9em;
+  display: inline-block;
+  width: 16em;
+  rotate: 12deg;
+  position: absolute;
+}
+
+.polaroid1 {
+  margin-left: 37.2em;
+  margin-top: 6.4em;
+  position: absolute;
+}
+
+.polaroid2 {
+  margin-left: 47.2em;
+  margin-top: 12.4em;
+  rotate: 8deg;
+  position: absolute;
+}
+
+img {
+  display:inline-block;
+  max-width: 138px;
+  max-height: 138px;
+}
+
+ul {
+  list-style-type: none;
+  margin:auto;
+  padding: 1em;
+  float:none;
+  overflow-x: hidden;
+  width: 15em;
+}
+
+li {
+  width: 10em;
+  height: 3em;
+  line-height: 3em;
+  margin-left: 1em;
+  text-align: center;
+  float: none;
+  overflow: hidden;
+  font-family: "Blisstwin";
+  color:black;
+  font-size: 1.2vw;
+  display: block;
+  background-color: black;
+  border: 1px solid white;
+}
+
+li a:hover {
+  background-color: #3934a9;
+  color: white;
+  text-decoration: none;
+}
+
+li a {
+  font-family: "Blisstwin";
+  text-align: center;
+  color:white;
+  display: block;
+  padding: 0.2vw;
+  background-color: black;
+  margin:0;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

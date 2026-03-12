@@ -1,0 +1,160 @@
+/* MAIN BODY COLORS */
+body {
+  background-color: #222942;
+  background-image: none;
+  /*background-image: url(https://sadhost.neocities.org/images/tiles/purpskybg.jpg);*/
+}
+
+
+p, p2, h1, h2,h3 {
+  color: #e1cfae;
+}
+
+.container {
+  display: grid;
+  width: 75%;
+  margin: 4em auto;
+  grid-template: 
+    "header header"
+    "main main"
+    "footer footer"
+    /1fr 15em;
+  grid-template-rows: 10em 1fr;
+}
+
+.maingrid {
+  display: grid;
+  grid-gap: 7em;
+  width: 100%;
+  margin: 1em auto;
+  grid-template:
+    "text nav"
+    /1fr 15em;
+}
+
+header, main, sidebar, footer {
+  border: none;
+}
+
+header {
+  background-image: none;
+  background-color: #ab2041;
+  border-bottom: 6px groove #315d3d;
+}
+
+main, footer {
+  background-color: #2f5b3b;
+  background-image: none;
+}
+
+main {
+  padding: 0;
+}
+
+footer {
+  padding: 0;
+}
+
+sidebar {
+  grid-area: "nav";
+  background-image: url("https://textures.neocities.org/thumbnails/wood/thumb_logs195.jpg");
+  background-blend-mode: lighten;
+  border: 6px groove #5f3930;
+}
+
+.innerborder {
+  padding-top: 4em;
+  padding-bottom: 2em;
+  border-image-slice: 300 0 0 0;
+  border-image-width: 60px 0 60px 0;
+  border-image-outset: 0 0 0 0;
+  border-image-repeat: repeat space;
+  border-image-source: url("/images/chrimmas10.png");
+  border-style: solid; 
+}
+
+.cgblock {
+  padding: 5em;
+}
+
+.navblock {
+  padding: 0;
+  padding-top: 2em;
+}
+
+.navborder {
+  padding-bottom: 3em;
+  border-image-slice: 200 0 200 0;
+  border-image-width: 40px 0 40px 0;
+  border-image-outset: 0 0 0 0;
+  border-image-repeat: repeat space;
+  border-image-source: url("/images/chrimmas8.png");
+  border-style: solid; 
+}
+
+
+/* NAVIGATION OVERRIDES */
+.nav {
+  border-color: #1f3d2e;
+}
+
+.nav li {
+  background-color: #881732;
+  color: #e1cfae;
+}
+
+.nav li:not(:last-of-type) {
+  border-color: #581531;
+}
+
+summary::marker {
+  color: #e1cfae;
+}
+
+.submenu li:hover {
+  background-color: #b99c67;
+  color: #18341e;
+}
+
+.txtarea {
+  grid-area: "text";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

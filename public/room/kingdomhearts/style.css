@@ -1,0 +1,404 @@
+@font-face {
+  font-family: "KHTitle";
+  src: url(https://file.garden/aTQD7UdeYkPxCZbb/kingdomhearts/Fonts/KHTitle.otf);
+}
+
+@font-face {
+  font-family: "KHMenu";
+  src: url(https://file.garden/aTQD7UdeYkPxCZbb/kingdomhearts/Fonts/KHMenu.otf);
+}
+
+@font-face {
+  font-family: "Gummi";
+  src: url(https://file.garden/aTQD7UdeYkPxCZbb/kingdomhearts/Fonts/KHGummi.otf);
+}
+
+:root {
+  --font-color: #d6d2d2;
+  --border-blue: #0022ff;
+  --text-blue: #60a0f1;
+  --text-gray: #7f8385;
+  --text-graydark: #414445;
+  --p-font: "KHMenu";
+}
+
+body {
+  background-color: #0c123f;
+  background-image: url(https://file.garden/aTQD7UdeYkPxCZbb/scanliens.png);
+  background-size: 100%;
+}
+
+p, h2 {
+  color: var(--text-blue);
+}
+
+h1 {
+  font-family: "KHTitle";
+  font-size: 3em;
+  background: linear-gradient(to top, #343f43, #cddbe1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-stroke: 0.4px white;
+}
+
+h2 {
+  font-family: "Gummi";
+  font-size: 1.8em;
+  line-height: 1em;
+}
+
+p {
+  font-family: var(--p-font);
+  font-size: 1em;
+  -webkit-text-stroke: 0.4px  rgba(22, 46, 99, 1);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* MAIN CONTAINERS */
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-gap: 2em 3em;
+  grid-template: 
+    "col header header"
+    "col sidebar main"
+    "col bottom bottom"
+    /20% 16% 1fr;
+  grid-template-rows: 9em 1fr 20em;
+  width: 1400px;
+  margin: auto;
+  margin-top: 2.5em;
+  margin-bottom: 4em;
+}
+
+header, main {
+  /*background: radial-gradient(circle,rgba(105, 58, 79, 1) 0%, rgba(30, 42, 66, 1) 100%);*/
+  background: radial-gradient(circle,rgba(0, 5, 23, 1) 9%, rgba(6, 14, 69, 1) 79%, rgba(22, 46, 99, 1) 100%);
+  opacity: 0.89;
+  border-radius: 4px;
+  border: 4px groove var(--border-blue);
+}
+
+header {
+  grid-area: header;
+  background-size: cover;
+  text-align: center;
+}
+
+main {
+  grid-area: main;
+  padding: 2em;
+  overflow-y: scroll;
+}
+
+aside {
+  grid-area: sidebar;
+}
+
+footer {
+  grid-area: bottom;
+  padding: 3em;
+  border-radius: 4px;
+  border: 4px groove var(--border-blue);
+  background-image: url(https://file.garden/aTQD7UdeYkPxCZbb/webdev/2-min-240296861.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+leftside {
+  grid-area: col;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2em;
+  text-align: center;
+}
+
+leftside img {
+  width: 100%;
+  margin: auto;
+  transition: transform 0.5s;
+}
+
+leftside img:hover {
+  transform: rotate(10deg);
+}
+
+main img {
+  float:left;
+  width: 15em;
+  transition: transform 0.2s;
+}
+
+main img:hover {
+  transform: scale(1.03);
+}
+
+
+/* sidebar */
+.label {
+  box-sizing: content-box;
+  width: 14em;
+  height: 2.2em;
+  background-color: rgba(6, 14, 69, 1);
+  background: linear-gradient(0deg, rgba(0, 34, 255, 1) 0%, rgba(22, 46, 99, 1) 25%, rgba(22, 46, 99, 1) 50%, rgba(22, 46, 99, 1) 75%, rgba(0, 34, 255, 1) 100%);
+  border-radius: 15px;
+  text-align: center;
+  justify-content: center;
+}
+
+.label h2 {
+  line-height: 1.2em;
+  color: white;
+  margin: 0;
+}
+
+aside ul {
+  list-style-type: none;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+aside ul li {
+  background: rgba(0,0,0,0.80);
+  color: var(--text-gray);
+  padding: 0.5em;
+  padding-left: 1em;
+  font-family: var(--p-font);
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top: 4px solid var(--text-gray);
+  border-left: 4px groove var(--text-graydark);
+  transition: transform 0.5s, background;
+}
+
+aside ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+aside ul li:hover {
+  transform: translateX(1.5em);
+  background: linear-gradient(0deg, rgba(130, 0, 33, 1) 0%, rgba(0,0,0,1) 100%); 
+  border-top: 4px solid red;
+  border-left: 4px solid red;
+  color: white;
+}
+
+
+
+/* stat boxes */
+.statcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.stats {
+  width: 100%;
+  background: rgba(0,0,0,0.70);
+  border-top-left-radius: 15px;
+  border-top: 4px solid var(--text-gray);
+  border-left: 4px groove var(--text-graydark);
+  margin: auto;
+  margin-top: 5em;
+}
+
+.stathead {
+  padding: 0.5em;
+  text-align: center;
+  width: 100%;
+  font-family: var(--p-font);
+  color: var(--text-gray);
+  font-size: 1.3em;
+  border-bottom: 4px groove var(--text-graydark);
+}
+
+.lvl, .hp, .mp {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--p-font);
+  font-size: 1.2em;
+}
+
+.front {
+  text-indent: 1em;
+}
+
+.back {
+  margin-right: 1em;
+}
+
+.lvl {
+  color: yellow;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.hp {
+  color: green;
+}
+
+.hp hr {
+  color: green;
+  width: 76%;
+  height: 5px;
+  margin-left: 0;
+}
+
+.mp {
+  color: blue;
+}
+
+.mp hr {
+  color: blue;
+  width: 95%;
+  height: 5px;
+  margin-left: 0;
+}
+
+.ipod {
+/* change these to whatever colors you want to use for it! */
+--black: #5b3a53 ;
+--dark: #051b32 ;
+--med: #1b3876 ;
+--light: #1369a8 ;
+--white: #e6e6e6 ;
+
+width:150;
+height:250px;
+border:5px var(--med) solid;
+padding:20px;
+margin:30px;
+border-radius:25px;
+background:var(--light);
+box-shadow:15px 15px var(--med)
+}
+
+/* the actual music player*/
+audio {
+border-radius:25px;
+width:90%;
+height:30px;
+background:var(--med);
+color:white;
+mix-blend-mode:hard-light;
+opacity:.4;
+margin:10px auto
+}
+
+/*offsets every second ipod widget by a little bit, to make them arrange in a more interesting way, and changes the colors slightly! you can get rid of this if you don't want that.*/
+.ipod:nth-of-type(even) {
+background:var(--med);
+box-shadow:15px 15px var(--dark);
+border-color:var(--dark);
+margin-top:-5px
+}
+.ipod:nth-of-type(even) .button .button {
+background:var(--med);
+border:1px double var(--light)
+}
+
+.screen {
+height:55%;
+background:var(--white);
+border-radius:20px;
+overflow:scroll;
+outline:2px var(--white) solid;
+outline-offset:3px;
+font-family: "KHMenu";
+font-size:12px;
+text-align:center;
+}
+
+/* the bold text - where your song title will go, probably */
+.screen b {
+background:var(--med);
+color:var(--white);
+width:100%;
+display:block;
+padding:3px 5px;
+font-size:.9em;
+margin-top:5px;
+border-top:15px double var(--white);
+}
+
+/* the bit under the audio player */
+.screen .caption {
+padding:0px 10px
+}
+
+/* the circular buttons - this bit is just for decoration, really! */
+.button {
+border:1px double var(--med);
+background:var(--white);
+height:40%;
+aspect-ratio:1 / 1;
+margin:10% auto;
+border-radius:50%;
+overflow:hidden;
+text-align:center;
+position:relative;
+}
+.button .b {
+position:absolute;
+width:100%;
+text-align:center;
+font-weight:bold;
+color:var(--black) !important
+}
+.b.b-top {
+top:5%;
+font-size:.9em;
+}
+.b.b-bottom {
+bottom:5%;
+font-size:.6em;
+}
+.b.b-left {
+left:3%;
+top:40%;
+width:20%;
+}
+.b.b-right {
+right:3%;
+top:40%;
+width:20%;
+}
+
+.button .button {
+height:50%;
+aspect-ratio:1 / 1;
+margin:25% auto;
+background:var(--light)
+}
+                
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
