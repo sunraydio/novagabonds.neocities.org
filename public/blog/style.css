@@ -26,7 +26,6 @@ h1, p, p2 {
 h1 {
   font-family: "Snow";
   font-size: 2.3em;
-  color: black;
 }
 
 h1 a {
@@ -42,11 +41,11 @@ h2 {
 h3 {
   font-family: "typew";
   font-size: 0.9em;
-  color: white;
 }
 
 p, p2 {
   font-family: "typew";
+  font-weight: bold;
 }
 
 p a, p2 a {
@@ -54,12 +53,10 @@ p a, p2 a {
 }
 
 p {
-  color: inherit;
   font-size: 0.8em;
 }
 
 p2 {
-  color: black;
   font-size: 0.7em;
 }
 
