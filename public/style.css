@@ -246,16 +246,6 @@ footer {
   text-align: left;
 }
 
-.blockbox .maintextarea {
-  display: flex;
-  margin: 1em auto;
-  width: 400px;
-}
-
-.blockbox img {
-  display: flex;
-}
-
 .badges {
   display: flex;
   flex-wrap: wrap;
