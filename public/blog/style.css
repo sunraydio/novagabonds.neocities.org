@@ -89,7 +89,7 @@ body {
 header {
   grid-area: header;
   background-image: url(https://file.garden/aTQD7UdeYkPxCZbb/webdev/bloghead1.png);
-  background-size: contain;
+  background-size: cover;
   padding: 1em;
   padding-left: 2em;
   z-index: 1;
