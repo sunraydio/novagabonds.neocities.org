@@ -139,6 +139,14 @@ footer {
   background-size: cover;
 }
 
+.sidecontainer p2 a {
+  text-decoration: underline;
+}
+
+.sidecontainer p2 a:hover {
+  color: rgb(20, 71, 134);
+}
+
 .blogpost {
   width: 100%;
   margin: auto;
