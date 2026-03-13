@@ -93,6 +93,7 @@ header {
   padding: 1em;
   padding-left: 2em;
   z-index: 1;
+  transition: background-image 0.3s ease-in-out;
 }
 
 header:hover {
