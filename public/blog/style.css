@@ -145,6 +145,7 @@ footer {
   margin: auto;
   background-image: url(https://file.garden/aTQD7UdeYkPxCZbb/webdev/wavebottom2.png);
   background-position: bottom;
+  background-size: contain;
   background-repeat: no-repeat;
   background-color: #658ca0;
   border-radius: 8px;
@@ -165,7 +166,7 @@ footer {
 
 .textarea {
   padding: 9em;
-  padding-bottom: 40em;
+  padding-bottom: 20em;
   padding-top: 2em;
   padding-top: 0;
 }
