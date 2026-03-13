@@ -75,7 +75,7 @@ body {
     "header header"
     "main side"
     "footer footer"
-    /1fr 16em;
+    /1fr 18em;
   grid-template-rows: 10em 1fr 3em;
   width: 75%;
   margin: auto;
@@ -133,8 +133,8 @@ footer {
 .sidecontainer {
   margin: 1em auto;
   padding: 4em;
-  width: 14em;
-  height: 18.5em;
+  width: 16em;
+  height: 20.5em;
   background-image: url(https://file.garden/aTQD7UdeYkPxCZbb/webdev/tumblr_a38cc231b53811dd0dbb1eb915b6d515_d921561a_250.png);
   background-size: cover;
 }
