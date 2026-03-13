@@ -132,7 +132,7 @@ footer {
 
 .sidecontainer {
   margin: 1em auto;
-  padding: 4em;
+  padding: 5em;
   width: 16em;
   height: 20.5em;
   background-image: url(https://file.garden/aTQD7UdeYkPxCZbb/webdev/tumblr_a38cc231b53811dd0dbb1eb915b6d515_d921561a_250.png);
@@ -159,7 +159,7 @@ footer {
   border-radius: 8px;
   border-top-left-radius: 0;
   margin-bottom: 3em;
-  padding-top: 1em;
+  padding-top: 3em;
 }
 
 .blogheader {
