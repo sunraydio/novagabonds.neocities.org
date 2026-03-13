@@ -149,7 +149,8 @@ footer {
   background-position: bottom;
   background-size: 100% auto;
   background-repeat: no-repeat;
-  background-color: #385c6e;
+  background-color: #658ca0;
+  color: rgb(26, 11, 36);
   border-radius: 8px;
   border-top-left-radius: 0;
   margin-bottom: 3em;
