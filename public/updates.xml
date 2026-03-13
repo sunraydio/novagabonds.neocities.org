@@ -5,127 +5,134 @@
 		<title>novagabonds</title>
 		<link>https://novagabonds.neocities.org</link>
 		<description>art, personal blog, etc</description>
+
+        <item>
+            <title>12 March 2026 - some assets + RSS display broken</title>
+            <link>https://novagabonds.neocities.org"</link>
+            <description>added some things to the about which I am very proud of + noticed that the RSS feed display in my sidebar is broken for some reason, which iiiiii will fix at some point when I get the chance.</description>
+            <pubDate>Thu, 12 Mar 2026 06:13:27 -0500</pubDate>
+        </item>
 		
-		<item>
-		  <title>11 March 2026 - blog, burnout, etc...</title>
-		  <link>https://novagabonds.neocities.org/blog</link>
-		  <description>currently experiencing a frankly awful amount of burnout re: styling this site, actually optimizing things, etc., but DID add semblances of a blog page, some more buttons, & other things...</description>
-		  <pubDate>Wed, 11 Mar 2026 07:22:36 -0500</pubDate>
-		</item>
+        <item>
+            <title>11 March 2026 - blog, burnout, etc...</title>
+            <link>https://novagabonds.neocities.org/blog</link>
+            <description>currently experiencing a frankly awful amount of burnout re: styling this site, actually optimizing things, etc., but DID add semblances of a blog page, some more buttons, & other things...</description>
+            <pubDate>Wed, 11 Mar 2026 07:22:36 -0500</pubDate>
+        </item>
 
-    <item>
-        <title>28 Dec 2025 - sitemap, rooms, new pages</title>
-        <link>https://novagabonds.neocities.org/sitemap</link>
-        <description>made some new pages! trying to organize what i want to exist in my room page, although not greatly successfully without the visuals. struggled a bit with git. uhhh. added a blog page and that's fully formatted although i haven't written anything there yet! all in all a fairly productive day</description>
-        <pubDate>Sun, 28 Dec 2025 18:23:00 -0500</pubDate>
-    </item>
+        <item>
+            <title>28 Dec 2025 - sitemap, rooms, new pages</title>
+            <link>https://novagabonds.neocities.org/sitemap</link>
+            <description>made some new pages! trying to organize what i want to exist in my room page, although not greatly successfully without the visuals. struggled a bit with git. uhhh. added a blog page and that's fully formatted although i haven't written anything there yet! all in all a fairly productive day</description>
+            <pubDate>Sun, 28 Dec 2025 18:23:00 -0500</pubDate>
+        </item>
 
-    <item>
-    	<title>26 Dec 2025</title>
-      <link>https://novagabonds.neocities.org</link>
-      <description>created Kingdom Hearts fanpage; added more to fruiperheroes page; linked the website to git (which i am using right now to update this!), AND. added an rss feed so now all devlogs and other updates will be here! yippee!</description>
-      <pubDate>Fri, 26 Dec 2025 14:24:00 -0500</pubDate>
-    </item>
-    
-    <item>
-        <title>25 Dec 2025</title>
+        <item>
+            <title>26 Dec 2025</title>
         <link>https://novagabonds.neocities.org</link>
-        <description>changed the main font everyone say thank you Kelvinch</description>
-        <pubDate>Thu, 25 Dec 2025 14:24:00 -0500</pubDate>
-    </item>
-    
-    <item>
-        <title>20 Dec 2025</title>
-        <link>https://novagabonds.neocities.org</link>
-        <description>I FORGOR THIS WAS HERE. uhhhh. updated some ui things and added more to the fruiperheroes page!</description>
-        <pubDate>Sat, 20 Dec 2025 14:24:00 -0500</pubDate>
-    </item>
-    
-    <item>
-        <title>9 Dec 2025</title>
-        <link>https://novagabonds.neocities.org</link>
-        <description>procrastinating like hell. added a music player though!</description>
-        <pubDate>Tue, 9 Dec 2025 14:24:00 -0500</pubDate>
-    </item>
-    
-    
-    <item>
-        <title>8 Dec 2025</title>
-        <link>https://novagabonds.neocities.org</link>
-        <description>added favorites box to the about page!</description>
-        <pubDate>Mon, 8 Dec 2025 14:24:00 -0500</pubDate>
-    </item>
-    
-    <item>
-        <title>6 Dec 2025</title>
-        <link>https://novagabonds.neocities.org</link>
-        <description>dude i added like ten pages and functions. mostly overhauled the about page?? and i think added site recs to the navbar</description>
-        <pubDate>Sat, 6 Dec 2025 14:24:00 -0500</pubDate>
-    </item>
-    
-    <item>
-        <title>4 Dec 2025</title>
-        <link>https://novagabonds.neocities.org</link>
-        <description>guestbook is up and running! also dear god i need to stop procrastinating someone get me out of here</description>
-        <pubDate>Thu, 4 Dec 2025 14:24:00 -0500</pubDate>
-    </item>
-    
-    <item>
-        <title>3 Dec 2025</title>
-        <link>https://novagabonds.neocities.org</link>
-        <description>made a couple new pages, moved about to homepage, fixed some features. also tweaked mobile compatibility several days ago but i forgor to write about it</description>
-        <pubDate>Wed, 3 Dec 2025 14:24:00 -0500</pubDate>
-    </item>
-    
-    <item>
-        <title>24 Nov 2025</title>
-        <link>https://novagabonds.neocities.org</link>
-        <description>hauled ass on the gallery. alt text + captions + open/close are all working now</description>
-        <pubDate>Mon, 24 Nov 2025 14:24:00 -0500</pubDate>
-    </item>
-    
-    <item>
-        <title>20 Nov 2025</title>
-        <link>https://novagabonds.neocities.org</link>
-        <description>streamlined the footer + other things, basically done with the main layout of the website and its pages!! basically just need to improve accessibility + finish some other pages + alsooo add some other small features</description>
-        <pubDate>Thu, 20 Nov 2025 14:24:00 -0500</pubDate>
-    </item>
-    
-    
-    <item>
-        <title>15 Nov 2025</title>
-        <link>https://novagabonds.neocities.org</link>
-        <description>made and filled rec page, fixed up some other ones to varying success, styled hr line. figured out the css with multiple styles thing!</description>
-        <pubDate>Sun, 15 Nov 2025 14:24:00 -0500</pubDate>
-    </item>
-    
-    <item>
-        <title>13 Nov 2025</title>
-        <link>https://novagabonds.neocities.org</link>
-        <description>made a new header!! also added some content on various pages</description>
-        <pubDate>Fri, 13 Nov 2025 14:24:00 -0500</pubDate>
-    </item>
-    
-    <item>
-        <title>12 Nov 2025</title>
-        <link>https://novagabonds.neocities.org</link>
-        <description>added button hotlink, navlink ads, and other container images</description>
-        <pubDate>Thu, 12 Nov 2025 14:24:00 -0500</pubDate>
-    </item>
-    
-    <item>
-        <title>11 Nov 2025</title>
-        <link>https://novagabonds.neocities.org</link>
-        <description>spent most of today filling in content and updating old pages with the new css. most notably: dropdown menu is up and running, more titles than i have ever needed to see in my whole life</description>
-        <pubDate>Wed, 11 Nov 2025 14:24:00 -0500</pubDate>
-    </item>
-    
-    <item>
-        <title>10 Nov 2025</title>
-        <link>https://novagabonds.neocities.org</link>
-        <description>stayed up until 3am completely restructuring everything--background, fonts, main assets stayed the same</description>
-        <pubDate>Tue, 10 Nov 2025 14:24:00 -0500</pubDate>
-    </item>
+        <description>created Kingdom Hearts fanpage; added more to fruiperheroes page; linked the website to git (which i am using right now to update this!), AND. added an rss feed so now all devlogs and other updates will be here! yippee!</description>
+        <pubDate>Fri, 26 Dec 2025 14:24:00 -0500</pubDate>
+        </item>
+        
+        <item>
+            <title>25 Dec 2025</title>
+            <link>https://novagabonds.neocities.org</link>
+            <description>changed the main font everyone say thank you Kelvinch</description>
+            <pubDate>Thu, 25 Dec 2025 14:24:00 -0500</pubDate>
+        </item>
+        
+        <item>
+            <title>20 Dec 2025</title>
+            <link>https://novagabonds.neocities.org</link>
+            <description>I FORGOR THIS WAS HERE. uhhhh. updated some ui things and added more to the fruiperheroes page!</description>
+            <pubDate>Sat, 20 Dec 2025 14:24:00 -0500</pubDate>
+        </item>
+        
+        <item>
+            <title>9 Dec 2025</title>
+            <link>https://novagabonds.neocities.org</link>
+            <description>procrastinating like hell. added a music player though!</description>
+            <pubDate>Tue, 9 Dec 2025 14:24:00 -0500</pubDate>
+        </item>
+        
+        
+        <item>
+            <title>8 Dec 2025</title>
+            <link>https://novagabonds.neocities.org</link>
+            <description>added favorites box to the about page!</description>
+            <pubDate>Mon, 8 Dec 2025 14:24:00 -0500</pubDate>
+        </item>
+        
+        <item>
+            <title>6 Dec 2025</title>
+            <link>https://novagabonds.neocities.org</link>
+            <description>dude i added like ten pages and functions. mostly overhauled the about page?? and i think added site recs to the navbar</description>
+            <pubDate>Sat, 6 Dec 2025 14:24:00 -0500</pubDate>
+        </item>
+        
+        <item>
+            <title>4 Dec 2025</title>
+            <link>https://novagabonds.neocities.org</link>
+            <description>guestbook is up and running! also dear god i need to stop procrastinating someone get me out of here</description>
+            <pubDate>Thu, 4 Dec 2025 14:24:00 -0500</pubDate>
+        </item>
+        
+        <item>
+            <title>3 Dec 2025</title>
+            <link>https://novagabonds.neocities.org</link>
+            <description>made a couple new pages, moved about to homepage, fixed some features. also tweaked mobile compatibility several days ago but i forgor to write about it</description>
+            <pubDate>Wed, 3 Dec 2025 14:24:00 -0500</pubDate>
+        </item>
+        
+        <item>
+            <title>24 Nov 2025</title>
+            <link>https://novagabonds.neocities.org</link>
+            <description>hauled ass on the gallery. alt text + captions + open/close are all working now</description>
+            <pubDate>Mon, 24 Nov 2025 14:24:00 -0500</pubDate>
+        </item>
+        
+        <item>
+            <title>20 Nov 2025</title>
+            <link>https://novagabonds.neocities.org</link>
+            <description>streamlined the footer + other things, basically done with the main layout of the website and its pages!! basically just need to improve accessibility + finish some other pages + alsooo add some other small features</description>
+            <pubDate>Thu, 20 Nov 2025 14:24:00 -0500</pubDate>
+        </item>
+        
+        
+        <item>
+            <title>15 Nov 2025</title>
+            <link>https://novagabonds.neocities.org</link>
+            <description>made and filled rec page, fixed up some other ones to varying success, styled hr line. figured out the css with multiple styles thing!</description>
+            <pubDate>Sun, 15 Nov 2025 14:24:00 -0500</pubDate>
+        </item>
+        
+        <item>
+            <title>13 Nov 2025</title>
+            <link>https://novagabonds.neocities.org</link>
+            <description>made a new header!! also added some content on various pages</description>
+            <pubDate>Fri, 13 Nov 2025 14:24:00 -0500</pubDate>
+        </item>
+        
+        <item>
+            <title>12 Nov 2025</title>
+            <link>https://novagabonds.neocities.org</link>
+            <description>added button hotlink, navlink ads, and other container images</description>
+            <pubDate>Thu, 12 Nov 2025 14:24:00 -0500</pubDate>
+        </item>
+        
+        <item>
+            <title>11 Nov 2025</title>
+            <link>https://novagabonds.neocities.org</link>
+            <description>spent most of today filling in content and updating old pages with the new css. most notably: dropdown menu is up and running, more titles than i have ever needed to see in my whole life</description>
+            <pubDate>Wed, 11 Nov 2025 14:24:00 -0500</pubDate>
+        </item>
+        
+        <item>
+            <title>10 Nov 2025</title>
+            <link>https://novagabonds.neocities.org</link>
+            <description>stayed up until 3am completely restructuring everything--background, fonts, main assets stayed the same</description>
+            <pubDate>Tue, 10 Nov 2025 14:24:00 -0500</pubDate>
+        </item>
 
 	</channel>
 </rss>
