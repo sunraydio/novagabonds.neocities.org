@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Porto-Qastelo";
+  src: url("/fonts/Porto-Qastelo.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Rosehot";
+  src: url("/fonts/Rosehot.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Kelvinch";
+  src: url("/fonts/Kelvinch-Roman.otf") format("opentype");
+}
+
+:root {
+  --background-color: #28245d;
+  --main-bg-color: #534aa8;
+  --font-color: #f6e7b3;
+  --font-hover: #e8bd7b;
+  --main-border-color: #d4a44b;
+  --cont-border-color: #49428e;
+  --header-font: "Rosehot";
+  --p-font: "Kelvinch";
+  --fancy-font: "Blisstwin";
+}
+
+body {
+  background-color: var(--background-color);
+  background-image: url(/images/darknight.gif);
+}
