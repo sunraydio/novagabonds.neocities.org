@@ -97,7 +97,7 @@ document.querySelector(".sidenav").innerHTML = `
       <p2>site neighbors!</p2>
       <div class="scrollarea">
       <div class="scrollbadges">
-        <a href="https://mpekamitzii.neocities.org" target="_blank"><img src="https://file.garden/aTQD7UdeYkPxCZbb/webdev/mpekamitzio.gif" alt="mpekamitzii" title="mpekamitzii"></a>
+        <a href="https://mpekamitzio.neocities.org" target="_blank"><img src="https://file.garden/aTQD7UdeYkPxCZbb/webdev/mpekamitzio.gif" alt="mpekamitzii" title="mpekamitzii"></a>
       </div>
       </div>
     </div>
