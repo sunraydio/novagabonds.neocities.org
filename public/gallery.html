@@ -7,12 +7,32 @@
     <link rel="icon" type="image/x-icon" href="https://pixelsafari.neocities.org/favicon/nature/star/star59.gif">
     <link href="/gallery.css" rel="stylesheet" type="text/css" media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js"></script>
 </head>
 
 <body>
     <header></header>
 
-    <script src="/js/gallery.js"></script>
+    <div ID="ngy2p" data-nanogallery2='{
+        "itemsBaseURL": "https://novagabonds.neocities.org/images/gallery",
+        "thumbnailWidth": "200",
+        "thumbnailHeight": "auto",
+        "thumbnailLabel": {
+          "position": "overImageOnBottom"
+        },
+        "thumbnailAlignment": "center",
+        "thumbnailOpenImage": true
+      }'>
+      <a href="marellinh.jpg" data-ngthumb="marellinh.jpg" data-ngdesc="">Marellinh</a>
+      <a href="inktater1.png" data-ngthumb="inktater1.png" data-ngdesc="">Tater Comic 1</a>
+      <a href="inktater2.png" data-ngthumb="inktater2.png" data-ngdesc="">Tater Comic 2</a>
+
+    </div>
+    
+
+
     <script src="/js/scrollbackbtn.js"></script>
 </body>
 </html>
