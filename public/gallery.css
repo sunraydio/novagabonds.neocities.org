@@ -21,7 +21,7 @@ src: url("/fonts/Kelvinch-Roman.otf") format("opentype");
   --font-hover: #e8bd7b;
   --background: #28245d;
   --accent-dark: #760f36;
-  --accent: #ffc66b /*#49428e*/;
+  --accent: #d4a44b /*#49428e*/;
   --accent-light: #d4a44b;
   --main-bg-color: #534aa8;
   --main-border-color: #d4a44b;
@@ -133,7 +133,7 @@ h3 {
   font-size: 2em;
   padding-left: 10px;
   margin: 0 auto;
-  line-height: 1.84em;
+  line-height: 1.8em;
   color: var(--background);
   background: var(--accent);
 }
