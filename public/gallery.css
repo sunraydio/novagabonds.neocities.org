@@ -195,7 +195,7 @@ footer {
   text-align: center;
   font-size: .9em;
   margin: var(--spacing) auto;
-  padding: 1em;
+  padding: 0;
   padding-left: 3em;
   border: 4px ridge;
   border-color: var(--main-border-color);
