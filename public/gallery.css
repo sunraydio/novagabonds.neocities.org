@@ -133,7 +133,7 @@ h3 {
   font-size: 2em;
   padding-left: 10px;
   margin: 0 auto;
-  line-height: 1.9em;
+  line-height: 1.84em;
   color: var(--background);
   background: var(--accent);
 }
@@ -179,6 +179,7 @@ hr {
 header {
   font-size: 2em;
   text-align: center;
+  margin-top: 3em;
   /*padding-bottom: var(--spacing);*/
 }
 
