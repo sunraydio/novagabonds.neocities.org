@@ -78,6 +78,10 @@ body {
 }*/
 
 /* FONTS & OTHER TEXT EFFECTS */
+a {
+  text-decoration: none;
+  color: inherit;
+}
 p, p2, p3, h2, h3, h4 {
   color: var(--font-color);
   margin: 0;
