@@ -132,6 +132,7 @@ h3 {
   font-size: 3em;
   padding-left: 10px;
   margin: 0;
+  line-height: 1em;
   color: var(--background);
   background: var(--accent);
 }
