@@ -185,10 +185,6 @@ nav {
   padding-top: var(--spacing)
 }
 
-main {
-  padding: 2em;
-}
-
 main, header, footer {
   max-width: var(--max-width);
   margin: 0 auto;
