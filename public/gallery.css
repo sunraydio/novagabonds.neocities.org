@@ -83,7 +83,7 @@ a {
   color: inherit;
 }
 p, p2, p3, h2, h3, h4 {
-  color: var(--accent);
+  color: var(--text);
   margin: 0;
 }
 
@@ -109,7 +109,7 @@ h1, h2, h3, h4 {
 
 h1 {
   font-family: "Porto-Qastelo";
-  color: var(--accent);
+  color: var(--text);
   font-size: 4em;
   line-height: 1em;
   z-index: 1;
