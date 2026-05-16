@@ -58,7 +58,7 @@ src: url("/fonts/Kelvinch-Roman.otf") format("opentype");
   scrollbar-color: var(--accent);
   -ms-overflow-style: none;
   box-decoration-break:clone;
-  line-height: 0.5em;
+  margin: 0;
 }
 
 body {
@@ -74,9 +74,9 @@ body {
   background-image: url(/images/darknight.gif);
 }
 
-h1:has(+ nav) {
+/*h1:has(+ nav) {
   margin-bottom: var(--halfspacing)
-}
+}*/
 
 /* FONTS & OTHER TEXT EFFECTS */
 p, p2, p3, h2, h3, h4 {
