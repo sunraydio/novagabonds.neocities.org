@@ -24,6 +24,8 @@ src: url("/fonts/Kelvinch-Roman.otf") format("opentype");
   --accent: #49428e;
   --accent-light: #d4a44b;
   --main-bg-color: #534aa8;
+  --main-border-color: #d4a44b;
+  --cont-border-color: #49428e;
 
   /* fonts */
   --basefont: "Kelvinch";
@@ -97,13 +99,19 @@ nav {
 }
 
 main {
-  background-color: var(--main-bg-color);
   padding: 2em;
 }
 
 main, header, footer {
   max-width: var(--max-width);
   margin: 0 auto;
+}
+
+main, footer {
+  background-color: var(--main-bg-color);
+  background-image: url(/images/metal019.jpg);
+  background-blend-mode: overlay;
+  background-color: var(--main-bg-color);
 }
 
 footer {
