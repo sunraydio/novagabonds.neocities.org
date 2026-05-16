@@ -119,11 +119,11 @@ h1 {
 h1 a {
   color: inherit;
   text-decoration: none;
-  transition: transform 0.1s ease;
+  transition: font-size 0.1s ease;
 }
 
 h1 a:hover {
-  transform: scale(1.01);
+  font-size: 4.01em;
 }
 
 h2 {
