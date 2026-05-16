@@ -193,7 +193,7 @@ main, header, footer {
 footer {
   display: block;
   text-align: center;
-  font-size: .9em;
+  font-size: 1em;
   margin: var(--spacing) auto;
   padding-top: -1em;
   padding-left: 3em;
