@@ -369,7 +369,7 @@ h4 {
   margin: var(--spacing) auto;
   max-width: min(var(--maximum-img-width), 100%);
   display:block;
-  background-color:var(--image-background)
+  background-color:var(--image-background);
   transition: transform 0.5s;
 }
 
