@@ -76,6 +76,7 @@ h1:has(+ nav) {
 }
 
 header {
+  font-size: 5em;
   text-align: center;
   padding-bottom: var(--spacing);
   /* background-color: #473675;*/
