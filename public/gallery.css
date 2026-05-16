@@ -176,13 +176,6 @@ hr {
   background: url(/images/hr.png);
 }
 
-header {
-  font-size: 2em;
-  text-align: center;
-  margin-top: 3em;
-  /*padding-bottom: var(--spacing);*/
-}
-
 nav {
   padding-top: var(--spacing)
 }
@@ -190,6 +183,13 @@ nav {
 main, header, footer {
   max-width: var(--max-width);
   margin: 0 auto;
+}
+
+header {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 3em;
+  /*padding-bottom: var(--spacing);*/
 }
 
 
