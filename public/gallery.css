@@ -45,7 +45,7 @@ src: url("/fonts/Kelvinch-Roman.otf") format("opentype");
   --spacing: 15px;
   --border-radius: 4px;
   --underline: wavy var(--accent-light);
-  --border: dashed var(--accent) 1px;
+  --border: solid var(--accent) 1px;
 
   /* calculations - don't worry about this */
   --halfspacing: calc(var(--spacing) / 2);
@@ -370,6 +370,7 @@ h4 {
   max-width: min(var(--maximum-img-width), 100%);
   display:block;
   background-color:var(--image-background)
+  transition: transform 0.5s;
 }
 
 #gallery img:first-of-type {
@@ -385,7 +386,8 @@ figure {
 #gallery img:hover {
   border-radius: var(--border-radius);
   cursor: pointer;
-  outline: var(--border)
+  /*outline: var(--border);*/
+  transform: scale(1.2);
 }
 
 #lightbox {
