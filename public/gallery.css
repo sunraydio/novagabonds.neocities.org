@@ -41,7 +41,7 @@ src: url("/fonts/Kelvinch-Roman.otf") format("opentype");
   --column-gap: var(--spacing);
 
   /* misc styling */
-  --max-width: 40em;
+  --max-width: 60em;
   --spacing: 15px;
   --border-radius: 4px;
   --underline: wavy var(--accent-light);
@@ -181,7 +181,7 @@ nav {
 }
 
 main, header, footer {
-  max-width: var(--max-width);
+  width: var(--max-width);
   margin: 0 auto;
 }
 
