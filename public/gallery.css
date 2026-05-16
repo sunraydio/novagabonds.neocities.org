@@ -110,20 +110,20 @@ h1, h2, h3, h4 {
 h1 {
   font-family: "Porto-Qastelo";
   color: var(--text);
-  font-size: 60px;
+  font-size: 100px;
   line-height: 1em;
   z-index: 1;
   margin: 0;
 }
 
 h1 a {
-  color: currentColor;
+  color: inherit;
   text-decoration: none;
   transition: font-size 0.1s;
 }
 
 h1 a:hover {
-  font-size: 65px;
+  font-size: 120px;
 }
 
 h2 {
@@ -326,11 +326,6 @@ h4 {
   text-align: center;
   line-height: 1.3em;
 }
-
-  h1 a {
-    text-decoration: none;
-    color:var(--accent);
-  }
 
 h2 {
   font-size: 1.5em;
