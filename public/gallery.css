@@ -39,7 +39,7 @@ src: url("/fonts/Kelvinch-Roman.otf") format("opentype");
   --column-gap: var(--spacing);
 
   /* misc styling */
-  --max-width: 800px;
+  --max-width: 1200px;
   --spacing: 15px;
   --border-radius: 4px;
   --underline: wavy var(--accent-light);
