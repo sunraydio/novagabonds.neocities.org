@@ -181,7 +181,7 @@ nav {
 }
 
 main, header, footer {
-  width: var(--max-width);
+  max-width: var(--max-width);
   margin: 0 auto;
 }
 
