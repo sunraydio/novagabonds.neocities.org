@@ -177,7 +177,7 @@ hr {
 header {
   font-size: 2em;
   text-align: center;
-  padding-bottom: var(--spacing);
+  /*padding-bottom: var(--spacing);*/
 }
 
 nav {
