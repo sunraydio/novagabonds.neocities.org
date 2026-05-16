@@ -19,7 +19,7 @@ src: url("/fonts/Kelvinch-Roman.otf") format("opentype");
   /* colors */
   --text: #f6e7b3;
   --font-hover: #e8bd7b;
-  --background: #28245d;
+  --background: #190d30;
   --accent-dark: #760f36;
   --accent: #534aa8 /*#49428e*/;
   --accent-light: #e1b35c;
