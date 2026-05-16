@@ -325,7 +325,6 @@ nav::after {
 
 /* headers */
 h2,
-h3,
 h4 {
   font-family: var(--titlefont);
   margin: 1.5em auto;
