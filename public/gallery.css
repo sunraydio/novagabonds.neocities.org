@@ -91,13 +91,17 @@ p {
 }
 
 p2 {
-  font-family: var(--header-font);
+  font-family: var(--titlefont);
   font-size: 1em;
 }
 
 p3 {
   font-family: var(--p-font);
   font-size: 0.9em;
+}
+
+h1, h2, h3, h4 {
+  text-transform: all-uppercase;
 }
 
 h1 {
@@ -119,20 +123,20 @@ h1 a:hover {
 }
 
 h2 {
-  font-family: var(--header-font);
+  font-family: var(--titlefont);
   font-size: 2em;
   padding-left:10px;
 }
 
 h3 {
-  font-family: var(--header-font);
+  font-family: var(--titlefont);
   font-size: 1.4em;
   padding-left: 10px;
   margin: 0;
 }
 
 h4 {
-  font-family: var(--header-font);
+  font-family: var(--titlefont);
   font-size: 1.2em;
   padding-left: 10px;
 }
