@@ -190,6 +190,7 @@ header {
   text-align: center;
   margin-top: 2em;
   padding-bottom: var(--spacing);
+  width: 60em;
 }
 
 
