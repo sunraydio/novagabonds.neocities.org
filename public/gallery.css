@@ -331,7 +331,7 @@ img {
 hr::after,
 nav::after,
 footer::before {
-  content: "\a0 \a0";
+  content: " ";
   text-align-last: justify;
   width: 50%;
   margin: var(--spacing) auto;
