@@ -79,8 +79,8 @@ h1:has(+ nav) {
 header {
   font-size: 2em;
   text-align: center;
-  padding-bottom: var(--spacing);
-  /* background-color: #473675;*/
+  /*padding-bottom: var(--spacing);
+   background-color: #473675;*/
   background-color: rgb(71, 54, 117, 0.2);
   background-image: url(/images/header3.png);
   background-size: cover;
@@ -98,6 +98,7 @@ nav {
 
 main {
   background-color: var(--main-bg-color);
+  padding: 2em;
 }
 
 main, header, footer {
