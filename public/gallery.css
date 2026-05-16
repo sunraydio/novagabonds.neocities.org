@@ -195,7 +195,7 @@ footer {
   text-align: center;
   font-size: 1em;
   margin: var(--spacing) auto;
-  padding-bottom: 3em;
+  padding: 1em;
   border: 4px ridge;
   border-color: var(--main-border-color);
   border-radius: 10px;
@@ -312,8 +312,7 @@ img {
 
 /* dividing lines between areas */
 hr::after,
-nav::after,
-footer::before {
+nav::after {
   content: " ";
   text-align-last: justify;
   width: 50%;
