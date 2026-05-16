@@ -41,7 +41,7 @@ src: url("/fonts/Kelvinch-Roman.otf") format("opentype");
   --column-gap: var(--spacing);
 
   /* misc styling */
-  --max-width: 800px;
+  --max-width: 1200px;
   --spacing: 15px;
   --border-radius: 4px;
   --underline: wavy var(--accent-light);
@@ -110,7 +110,7 @@ h1, h2, h3, h4 {
 h1 {
   font-family: "Porto-Qastelo";
   color: var(--text);
-  font-size: 4vw;
+  font-size: 10vw;
   line-height: 1em;
   z-index: 1;
   margin: 0;
