@@ -78,6 +78,97 @@ h1:has(+ nav) {
   margin-bottom: var(--halfspacing)
 }
 
+/* FONTS & OTHER TEXT EFFECTS */
+p, p2, p3, h2, h3, h4 {
+  color: var(--font-color);
+  margin: 0;
+}
+
+p {
+  font-family: var(--p-font);
+  font-size: 1em;
+  margin: 10px;
+}
+
+p2 {
+  font-family: var(--header-font);
+  font-size: 1em;
+}
+
+p3 {
+  font-family: var(--p-font);
+  font-size: 0.9em;
+}
+
+h1 {
+  font-family: "Porto-Qastelo";
+  color: var(--font-color);
+  font-size: 5em;
+  line-height: 1em;
+  z-index: 1;
+}
+
+h1 a {
+  color: currentColor;
+  text-decoration: none;
+  transition: font-size 0.1s;
+}
+
+h1 a:hover {
+  font-size: 1.02em;
+}
+
+h2 {
+  font-family: var(--header-font);
+  font-size: 2em;
+  padding-left:10px;
+}
+
+h3 {
+  font-family: var(--header-font);
+  font-size: 1.4em;
+  padding-left: 10px;
+  margin: 0;
+}
+
+h4 {
+  font-family: var(--header-font);
+  font-size: 1.2em;
+  padding-left: 10px;
+}
+
+::selection {
+  color: #e7d7ff;
+  background: #766bdc;
+  text-shadow: 2px 2px 2px #464082;
+}
+
+p a, .rec a, p3 a {
+  color: #e7d7ff;
+  text-shadow: 2px 2px 2px #312f62;
+  text-decoration: dotted underline;
+}
+
+p a:hover, .rec a:hover, p3 a:hover {
+  color: #db6fff;
+}
+
+p2 a, h3 a {
+  color: var(--font-color);
+  text-decoration: none;
+}
+
+p2 a:hover, h3 a:hover {
+  color: var(--font-hover);
+}
+
+hr {
+  height: 40px;
+  width: 60%;
+  border:none;
+  background: url(/images/hr.png);
+}
+
 header {
   font-size: 2em;
   text-align: center;
