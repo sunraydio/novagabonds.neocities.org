@@ -57,7 +57,7 @@ src: url("/fonts/Kelvinch-Roman.otf") format("opentype");
   max-width: 100%;
   scrollbar-color: var(--accent);
   -ms-overflow-style: none;
-  box-decoration-break:clone
+  box-decoration-break:clone;
   line-height: 0.5em;
 }
 
