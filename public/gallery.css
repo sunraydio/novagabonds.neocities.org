@@ -178,17 +178,7 @@ hr {
 header {
   font-size: 2em;
   text-align: center;
-  /*padding-bottom: var(--spacing);
-   background-color: #473675;*/
-  background-color: rgb(71, 54, 117, 0.2);
-  background-image: url(/images/header3.png);
-  background-size: cover;
-  border: 4px ridge;
-  border-color: var(--main-border-color);
-  border-radius: 10px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-  text-align: center;
+  padding-bottom: var(--spacing);
 }
 
 nav {
@@ -204,12 +194,6 @@ main, header, footer {
   margin: 0 auto;
 }
 
-main, footer {
-  background-color: var(--main-bg-color);
-  background-image: url(/images/metal019.jpg);
-  background-blend-mode: overlay;
-  background-color: var(--main-bg-color);
-}
 
 footer {
   display: block;
@@ -220,8 +204,11 @@ footer {
   padding-left: 3em;
   border: 4px ridge;
   border-color: var(--main-border-color);
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-radius: 10px;
+  background-color: var(--main-bg-color);
+  background-image: url(/images/metal019.jpg);
+  background-blend-mode: overlay;
+  background-color: var(--main-bg-color);
 }
 
 /* element styling */
