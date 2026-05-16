@@ -119,10 +119,17 @@ document.querySelector(".navopen").innerHTML = `
         details.open = true;
     }
 `
+/*
+/* Select all SVGs 
+const svg = document.querySelectorAll("svg");
 
-
-
-
+/* Loop all SVGs 
+svg.forEach(element => {
+  /* Get bounding box of <text> element 
+  const bbox = element.querySelector("text").getBBox();
+  /* Apply bounding box to SVG element as viewBox 
+  element.setAttribute("viewBox", [bbox.x, bbox.y, bbox.width, bbox.height].join(" "));
+});*/
 
 
 
