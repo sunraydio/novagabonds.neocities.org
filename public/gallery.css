@@ -132,8 +132,8 @@ h3 {
   font-family: "Porto-Qastelo";
   font-size: 2em;
   padding-left: 10px;
-  margin: 0;
-  line-height: 2em;
+  margin: 0 auto;
+  line-height: 0.8em;
   color: var(--background);
   background: var(--accent);
 }
