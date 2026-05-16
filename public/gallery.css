@@ -58,7 +58,6 @@ src: url("/fonts/Kelvinch-Roman.otf") format("opentype");
   scrollbar-color: var(--accent);
   -ms-overflow-style: none;
   box-decoration-break:clone;
-  margin: 0;
 }
 
 body {
@@ -402,7 +401,6 @@ figure {
 #lightbox img {
 max-height:90vh;
 max-width:90vw;
-margin: auto;
 }
 
 ::backdrop {
