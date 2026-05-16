@@ -133,7 +133,7 @@ h3 {
   font-size: 2em;
   padding-left: 10px;
   margin: 0 auto;
-  line-height: 2em;
+  line-height: 1.9em;
   color: var(--background);
   background: var(--accent);
 }
@@ -370,7 +370,7 @@ h4 {
   max-width: min(var(--maximum-img-width), 100%);
   display:block;
   background-color:var(--image-background);
-  transition: transform 0.2s;
+  transition: transform 0.2s ease, z-index 0.05s;
 }
 
 #gallery img:first-of-type {
@@ -388,6 +388,11 @@ figure {
   cursor: pointer;
   /*outline: var(--border);*/
   transform: scale(1.2);
+  z-index: 5;
+}
+
+#gallery img:active {
+  transition: transform .2s ease, z-index 0s;
 }
 
 #lightbox {
