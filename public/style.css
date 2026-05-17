@@ -1082,6 +1082,7 @@ animation-timing-function: ease-in-out;
     "main"
     "footer";
     grid-template-rows: 10em 1fr;
+    margin: 0 auto;
   }
 
   header, main, footer, aside {
@@ -1092,16 +1093,10 @@ animation-timing-function: ease-in-out;
     margin-top: 0;
   }
   
-  aside {
+  aside, footer {
     border-top: 4px ridge;
     border-bottom: 4px ridge;
     border-color: var(--main-border-color);
-    padding: 1em;
-  }
-
-  footer {
-    border-top: 4px ridge;
-    border-bottom: 4px ridge;
   }
   
   main {
