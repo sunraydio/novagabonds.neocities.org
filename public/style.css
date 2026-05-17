@@ -1087,12 +1087,21 @@ animation-timing-function: ease-in-out;
   header, main, footer, aside {
     border: none;
   }
+
+  header {
+    margin-top: 0;
+  }
   
   aside {
-    border: 4px ridge;
-    border-top: 0;
+    border-top: 4px ridge;
+    border-bottom: 4px ridge;
     border-color: var(--main-border-color);
     padding: 1em;
+  }
+
+  footer {
+    border-top: 4px ridge;
+    border-bottom: 4px ridge;
   }
   
   main {
