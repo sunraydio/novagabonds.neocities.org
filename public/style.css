@@ -1087,10 +1087,12 @@ animation-timing-function: ease-in-out;
 
   header, main, footer, aside {
     border: none;
+    margin: 0;
   }
 
   header {
     margin-top: 0;
+    border-radius: 0;
   }
   
   aside, footer {
