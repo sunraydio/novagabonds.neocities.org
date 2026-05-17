@@ -1075,13 +1075,17 @@ animation-timing-function: ease-in-out;
 /* RESPONSIVITY */
 @media only screen and (max-width: 1200px) {
   .container {
-    width: 80%;
+    width: 100%;
     grid-template: 
     "header"
     "sidebar"
     "main"
     "footer";
     grid-template-rows: 10em 1fr;
+  }
+
+  header, main, footer, aside {
+    border: none;
   }
   
   aside {
