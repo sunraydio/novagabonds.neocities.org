@@ -98,6 +98,7 @@ document.querySelector(".sidenav").innerHTML = `
       <div class="scrollarea">
       <div class="scrollbadges">
         <a href="https://mpekamitzio.neocities.org" target="_blank"><img src="https://file.garden/aTQD7UdeYkPxCZbb/webdev/mpekamitzio.gif" alt="mpekamitzii" title="mpekamitzii"></a>
+        <a href="https://fruiperheroes.neocities.org" target="_blank"><img src=https://mpekamitzio.neocities.org/4/buttonfh.gif" alt="fruiperheroes" title="fruiperheroes"></a>
       </div>
       </div>
     </div>
