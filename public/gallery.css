@@ -408,7 +408,7 @@ max-width:90vw;
     cursor: pointer;
     background-color: var(--main-bg-color);
     color: white;
-    border: 10px;
+    border-radius: 10px;
     transition: background-color 0.3s ease;
 }
 
@@ -425,7 +425,6 @@ max-width:90vw;
 .active {
     display: block;
 }
-
 
 
 /* makes the lightbox work on small screens, like phones */
