@@ -460,4 +460,8 @@ max-width:90vw;
       height:30px;
       margin:10px auto;
   }
+
+  .tab-header {
+    flex-direction: column;
+  }
 } 
