@@ -398,6 +398,7 @@ max-width:90vw;
 .tab-header {
     display: flex;
     align-content: space-between;
+    width: 100%;
 }
 
 .tab-link {
@@ -417,6 +418,7 @@ max-width:90vw;
 .tab-content {
     padding: 30px;
     display: none;
+    height: 100%;
 }
 
 .active {
