@@ -399,6 +399,7 @@ max-width:90vw;
     display: flex;
     justify-content: space-between;
     width: 100%;
+    font: var(--titlefont);
 }
 
 .tab-link {
