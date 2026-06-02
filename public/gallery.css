@@ -397,16 +397,16 @@ max-width:90vw;
 
 .tab-header {
     display: flex;
-    border-radius: 8px;
+    align-content: space-between;
 }
 
 .tab-link {
-    flex: 1;
     padding: 15px;
     text-align: center;
     cursor: pointer;
     background-color: var(--main-bg-color);
     color: white;
+    border: 10px;
     transition: background-color 0.3s ease;
 }
 
@@ -417,8 +417,6 @@ max-width:90vw;
 .tab-content {
     padding: 30px;
     display: none;
-    height: 100vh;
-    overflow-y: auto;
 }
 
 .active {
