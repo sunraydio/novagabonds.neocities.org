@@ -23,9 +23,9 @@ src: url("/fonts/Kelvinch-Roman.otf") format("opentype");
   /* if you want to keep it super simple, you can edit these top variables (variables = the things that start with --) to add some style and leave the rest of the code alone! */
 
   /* colors */
-  --text: #f6e7b3;
+  --text: #d9cc9e;
   --font-hover: #e8bd7b;
-  --background: #190d30;
+  --background: #1d0b5acc;
   --accent-dark: #760f36;
   --accent: #e1b35c /*#49428e*/;
   --accent-light: #e8c481;
@@ -95,7 +95,7 @@ p, p2, p3, h2, h3, h4 {
 
 p {
   font-family: var(--p-font);
-  font-size: 1.1em;
+  font-size: 1.02em;
   margin: 10px;
 }
 
