@@ -405,6 +405,7 @@ max-width:90vw;
     display: flex;
     margin-top: 1em;
     width: 80%;
+    margin: auto;
 }
 
 .tab-link {
