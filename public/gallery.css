@@ -13,6 +13,12 @@ font-family: "Kelvinch";
 src: url("/fonts/Kelvinch-Roman.otf") format("opentype");
 }
 
+@font-face {
+  font-family: "Blisstwin";
+  src: url("/fonts/Blisstwin.ttf") format("truetype");
+}
+
+
 :root {
   /* if you want to keep it super simple, you can edit these top variables (variables = the things that start with --) to add some style and leave the rest of the code alone! */
 
@@ -397,21 +403,19 @@ max-width:90vw;
 
 .tab-header {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
 }
 
 .tab-link {
-    width: 24%;
+    flex: 1;
     padding: 15px;
     text-align: center;
     cursor: pointer;
     background-color: var(--main-bg-color);
-    border-radius: 10px;
     transition: background-color 0.3s ease;
 }
 
 .tab-link p2 {
+  font-family: "Blisstwin";
   font-size: 1.2em;
   color: white;
 }
@@ -432,7 +436,7 @@ max-width:90vw;
 
 .mta img {
   width: 80%;
-  
+
 }
 
 
