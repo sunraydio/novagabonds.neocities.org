@@ -7,16 +7,16 @@
 		<description>art, personal blog, etc</description>
 
         <item>
-            <title>2 June 2026 - art gallery layout & tabination</title>
+            <title>2 June 2026 - art gallery layout + tabination</title>
             <link>https://novagabonds.neocities.org/gallery</link>
-            <description>spent a few hours styling the gallery & adding the base javascript for the tabs so it's less work to load the images (hopefully lol)!</description>
+            <description>spent a few hours styling the gallery + adding the base javascript for the tabs so it's less work to load the images (hopefully lol)!</description>
             <pubDate>Tue, 2 Jun 2026 07:45:06 -0500</pubDate>
         </item>
 
         <item>
             <title>16 May 2026 - art gallery + mobile responsiveness!</title>
             <link>https://novagabonds.neocities.org/gallery</link>
-            <description>finally figured out how to add a gallery with lighrbox function & also spent a good few hours cleaning up the mobile responsivity as well!!</description>
+            <description>finally figured out how to add a gallery with lightbox function and also spent a good few hours cleaning up the mobile responsivity as well!!</description>
             <pubDate>Sat, 16 May 2026 01:36:00 -0500</pubDate>
         </item>
 
