@@ -51,7 +51,7 @@ src: url("/fonts/Kelvinch-Roman.otf") format("opentype");
   --spacing: 15px;
   --border-radius: 4px;
   --underline: wavy var(--accent-light);
-  --border: solid var(--accent) 1px;
+  --border: 4px ridge var(--accent);
 
   /* calculations - don't worry about this */
   --halfspacing: calc(var(--spacing) / 2);
@@ -207,7 +207,7 @@ footer {
   padding: 1em;
   border: 4px ridge;
   border-color: var(--main-border-color);
-  border-radius: 10px;
+  border-radius: var(--border-radius);
   background-color: var(--main-bg-color);
   background-image: url(/images/metal019.jpg);
   background-blend-mode: overlay;
@@ -408,8 +408,9 @@ max-width:90vw;
     margin-top: 1em;
     width: 80%;
     margin: auto;
-    border-radius: 8px;
+    border-radius: var(--border-radius);
     overflow: hidden;
+    border: var(--border);
 }
 
 .tab-link {
