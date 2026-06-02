@@ -406,6 +406,8 @@ max-width:90vw;
     margin-top: 1em;
     width: 80%;
     margin: auto;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .tab-link {
