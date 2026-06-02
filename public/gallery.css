@@ -286,6 +286,7 @@ img {
 
 /* boxes & flex */
 .box {
+  width: 80%;
   padding: var(--spacing);
   border: var(--border);
   margin: var(--spacing) auto;

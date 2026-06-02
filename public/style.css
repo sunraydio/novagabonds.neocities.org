@@ -202,8 +202,6 @@ footer {
 }
 
 .block {
-  width: 80%;
-  margin: auto;
   display: flex;
   padding: 1.5em;
   gap: 2em;
