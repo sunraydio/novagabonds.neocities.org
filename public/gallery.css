@@ -27,7 +27,7 @@ src: url("/fonts/Kelvinch-Roman.otf") format("opentype");
   --font-hover: #e8bd7b;
   --background: #280d53cc;
   --accent-dark: #760f36;
-  --accent: #d4a44b /*#49428e*/;
+  --accent: #e1b35c /*#49428e*/;
   --accent-light: #e8c481;
   --main-bg-color: #534aa8;
   --main-border-color: #d4a44b;
@@ -51,7 +51,7 @@ src: url("/fonts/Kelvinch-Roman.otf") format("opentype");
   --spacing: 15px;
   --border-radius: 4px;
   --underline: wavy var(--accent-light);
-  --border: 4px ridge var(--accent);
+  --border: 4px ridge var(--main-border-color);
 
   /* calculations - don't worry about this */
   --halfspacing: calc(var(--spacing) / 2);
