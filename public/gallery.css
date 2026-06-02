@@ -410,7 +410,6 @@ max-width:90vw;
     margin: auto;
     border-radius: var(--border-radius);
     overflow: hidden;
-    border: var(--border);
 }
 
 .tab-link {
