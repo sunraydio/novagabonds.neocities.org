@@ -412,7 +412,7 @@ max-width:90vw;
 }
 
 .tab-link p2 {
-  font-size: 1.4em;
+  font-size: 1.2em;
   color: white;
 }
 
@@ -428,6 +428,11 @@ max-width:90vw;
 
 .active {
     display: block;
+}
+
+.mta img {
+  width: 80%;
+  
 }
 
 
