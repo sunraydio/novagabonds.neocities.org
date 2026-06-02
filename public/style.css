@@ -352,8 +352,7 @@ footer {
 .scrollbadges {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  gap: 0 5px;
+  justify-content: space-between;
   width: 100%;
   height: 100%;
 }
