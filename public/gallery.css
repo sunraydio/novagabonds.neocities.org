@@ -399,7 +399,6 @@ max-width:90vw;
     display: flex;
     justify-content: space-between;
     width: 100%;
-    font: var(--titlefont);
 }
 
 .tab-link {
@@ -408,9 +407,13 @@ max-width:90vw;
     text-align: center;
     cursor: pointer;
     background-color: var(--main-bg-color);
-    color: white;
     border-radius: 10px;
     transition: background-color 0.3s ease;
+}
+
+.tab-link p2 {
+  font-size: 1.4em;
+  color: white;
 }
 
 .tab-link:hover {
