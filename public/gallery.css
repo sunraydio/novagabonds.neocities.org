@@ -288,7 +288,7 @@ img {
 .box {
   width: 90%;
   padding: var(--spacing);
-  border: var(--border);
+  /*border: var(--border);*/
   margin: var(--spacing) auto;
   border-radius: var(--border-radius);
   break-inside:avoid;
