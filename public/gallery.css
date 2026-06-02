@@ -25,7 +25,7 @@ src: url("/fonts/Kelvinch-Roman.otf") format("opentype");
   /* colors */
   --text: #d9cc9e;
   --font-hover: #e8bd7b;
-  --background: #1d0b5acc;
+  --background: #280d53cc;
   --accent-dark: #760f36;
   --accent: #e1b35c /*#49428e*/;
   --accent-light: #e8c481;
