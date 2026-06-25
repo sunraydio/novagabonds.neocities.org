@@ -137,14 +137,14 @@ hr {
 
 .container {
   display: grid;
-  grid-gap: 2em;
+  grid-gap: 0;
   grid-template: 
     "header header"
     "sidebar main"
     "footer footer"
     /17em 1fr;
   grid-template-rows: 11em 1fr;
-  width: 80%;
+  width: 75%;
   margin: auto;
   margin-top: 4em;
   margin-bottom: 2em;
