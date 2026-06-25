@@ -141,7 +141,7 @@ hr {
   grid-template: 
     "header header"
     "sidebar main"
-    "footer footer"
+    "sidebar footer"
     /17em 1fr;
   grid-template-rows: 11em 1fr;
   width: 80%;
