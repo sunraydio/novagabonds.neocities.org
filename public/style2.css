@@ -174,17 +174,12 @@ main {
   padding: 3em;
   padding-top: 0;
   position: relative;
-  border: 4px ridge;
-  border-radius: 10px;
-  border-color: var(--main-border-color);
 }
 
 aside {
   grid-area: sidebar;
   /*background-color: #3b3296;*/
   border: 4px ridge;
-  border-radius: 10px;
-  border-color: var(--main-border-color);
 }
 
 footer {
@@ -192,9 +187,6 @@ footer {
   /*background-color: #443aa8;*/
   padding: 1em;
   padding-left: 3em;
-  border: 4px ridge;
-  border-color: var(--main-border-color);
-  border-radius: 10px;
   text-align: center;
 }
 
