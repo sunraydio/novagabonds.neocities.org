@@ -1,5 +1,5 @@
-document.querySelector(".sidenav").innerHTML = `
-    <div class="nav">
+document.querySelector(".navbar").innerHTML = `
+<div class="nav">
     
     <!-- the main list styled in the form of a menu -->
     <ul>
@@ -54,7 +54,9 @@ document.querySelector(".sidenav").innerHTML = `
       </li>
     </ul>
     </div>
-    
+    `
+
+document.querySelector(".sidenav").innerHTML = `
     <!-- music player -->
     <div class="navcontainer">
       <div class="player">
