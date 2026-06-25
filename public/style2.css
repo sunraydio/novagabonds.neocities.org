@@ -164,9 +164,9 @@ header {
 }
 
 main, aside, footer {
-  background-image: url(/images/metal019.jpg);
+  /*background-image: url(/images/metal019.jpg);
   background-blend-mode: overlay;
-  background-color: var(--main-bg-color);
+  background-color: var(--main-bg-color);*/
   border-radius: 10px;
 }
 
@@ -195,12 +195,15 @@ footer {
   padding: 1.5em;
   gap: 2em;
   border-radius: 15px;
-  background: rgba(85, 77, 158,0.7);
+  /*background: rgba(85, 77, 158,0.7);*/
   border: 6px groove;
-  border-color: #49428e;
+  border-color: var(--main-border-color);
   width: 100%;
   margin-top: 2em;
   padding-top: 2em;
+  background-image: url(/images/metal019.jpg);
+  background-blend-mode: overlay;
+  background-color: var(--main-bg-color);
 }
 
 .blockbox {
