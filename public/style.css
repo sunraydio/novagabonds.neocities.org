@@ -165,11 +165,12 @@ header {
   /*padding-left: 20%;*/
 }
 
+/*
 main, aside, footer {
-  /*background-image: url(/images/metal019.jpg);
-  background-blend-mode: overlay;*/
+  background-image: url(/images/metal019.jpg);
+  background-blend-mode: overlay;
   background-color: var(--main-bg-color);
-}
+}*/
 
 main {
   grid-area: main;
