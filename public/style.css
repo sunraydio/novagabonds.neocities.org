@@ -416,8 +416,7 @@ footer {
 }
 
 .nav ul {
-  margin: auto;
-  width: 80%;
+  width: 100%;
   font-size: 1.2em;
   color: #f6e7b3;
   list-style-type: none;
@@ -425,6 +424,7 @@ footer {
 }
 
 .nav li {
+  margin: auto;
   padding: 0.5em;
   border-radius: 8px;
   width: 80%;
