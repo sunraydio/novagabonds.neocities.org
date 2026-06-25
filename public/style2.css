@@ -172,7 +172,7 @@ main, aside, footer {
 
 main {
   grid-area: main;
-  padding: 3em;
+  /*padding: 3em;*/
   padding-top: 0;
   position: relative;
 }
@@ -474,6 +474,9 @@ summary::marker {
   text-align: center;
   border: 4px groove;
   border-color: #49428e;
+  background-image: url(/images/metal019.jpg);
+  background-blend-mode: overlay;
+  background-color: var(--main-bg-color);
 }
 
 .navcontainer img {
