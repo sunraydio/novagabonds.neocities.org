@@ -137,7 +137,7 @@ hr {
 
 .container {
   display: grid;
-  grid-gap: 2em;
+  grid-gap: 10em;
   grid-template: 
     "header header"
     "sidebar main"
