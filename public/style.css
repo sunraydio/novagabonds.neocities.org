@@ -426,17 +426,17 @@ footer {
 .nav li {
   margin: auto;
   padding: 0.5em;
-  border-radius: 8px;
+  border-radius: 50%;
   width: 80%;
   /*background-color: green;*/
-  background: rgba(85, 77, 158,0.7);
+  background: #f5ea56 /*rgba(85, 77, 158,0.7)*/;
   text-indent: 1em;
 }
-
+/*
 .nav li:not(:last-of-type) {
   border-bottom: 4px groove;
   border-color: #49428e;
-}
+}*/
 
 .submenu ul {
   display: contents;
@@ -446,7 +446,7 @@ footer {
 
 .submenu li {
   text-indent: 1.4em;
-  border-radius: 4px;
+  border-radius: 50%;
   font-size: 0.7em;
 }
 
