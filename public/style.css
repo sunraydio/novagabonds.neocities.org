@@ -416,6 +416,7 @@ footer {
 }
 
 .nav ul {
+  margin: auto;
   width: 80%;
   font-size: 1.2em;
   color: #f6e7b3;
