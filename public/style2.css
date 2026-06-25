@@ -473,6 +473,7 @@ summary::marker {
   padding: 1em;
   text-align: center;
   border: 4px groove;
+  border-radius: 25%;
   border-color: var(--main-border-color);
   background-image: url(/images/metal019.jpg);
   background-blend-mode: overlay;
