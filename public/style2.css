@@ -159,8 +159,6 @@ header {
   border: 4px ridge;
   border-color: var(--main-border-color);
   border-radius: 10px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
   text-align: center;
   /*padding-left: 20%;*/
 }
