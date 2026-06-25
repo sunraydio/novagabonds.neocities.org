@@ -426,6 +426,7 @@ footer {
 .nav li {
   padding: 0.5em;
   border-radius: 8px;
+  width: 80%;
   /*background-color: green;*/
   background: rgba(85, 77, 158,0.7);
   text-indent: 1em;
