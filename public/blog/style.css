@@ -178,6 +178,10 @@ footer {
   padding-top: 0;
 }
 
+.active {
+    display: block;
+}
+
 
 
 
