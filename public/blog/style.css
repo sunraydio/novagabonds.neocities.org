@@ -182,6 +182,19 @@ footer {
     display: block;
 }
 
+.tab-link {
+  cursor: pointer;
+}
+
+.tab-link:hover {
+  color: white;
+}
+
+.tab-content {
+  display:none;
+}
+
+
 
 
 
