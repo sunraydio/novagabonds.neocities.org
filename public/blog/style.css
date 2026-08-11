@@ -178,10 +178,6 @@ footer {
   padding-top: 0;
 }
 
-.active {
-  display: block;
-}
-
 .tab-link {
   cursor: pointer;
 }
@@ -193,6 +189,11 @@ footer {
 .tab-content {
   display:none;
 }
+
+.active {
+  display: block;
+}
+
 
 
 
