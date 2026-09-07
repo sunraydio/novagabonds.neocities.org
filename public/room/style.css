@@ -15,7 +15,8 @@ main {
     border-radius: 15px;
     background-image: url(https://bettysgraphics.neocities.org/images/backgrounds/flowers%2017.gif);
     background-repeat: repeat;
-    margin: 3em auto;
+    margin: auto;
+    margin-top: 1em;
     border: 4px ridge #d4a44b;
 }
 
@@ -32,6 +33,6 @@ p {
 
 h1 {
     font-family: "Snow";
-    font-size: 4em;
+    font-size: 3em;
     color: white;
 }
