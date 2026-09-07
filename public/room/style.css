@@ -3,6 +3,10 @@
   src: url(https://file.garden/aTQD7UdeYkPxCZbb/webdev/fonts/Snow%20White.ttf) format("truetype");
 }
 
+* {
+    box-sizing: border-box
+}
+
 body {
     background-image: url(/images/darknight.gif);
     background-repeat: repeat;
@@ -16,7 +20,6 @@ main {
     background-image: url(https://bettysgraphics.neocities.org/images/backgrounds/flowers%2017.gif);
     background-repeat: repeat;
     margin: auto;
-    margin-top: 1em;
     border: 4px ridge #d4a44b;
 }
 
@@ -33,6 +36,6 @@ p {
 
 h1 {
     font-family: "Snow";
-    font-size: 3em;
+    font-size: 4em;
     color: white;
 }
