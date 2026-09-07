@@ -15,7 +15,7 @@ main {
     border-radius: 15px;
     background-image: url(https://bettysgraphics.neocities.org/images/backgrounds/flowers%2017.gif);
     background-repeat: repeat;
-    margin: auto 3em;
+    margin: 3em auto;
     border: 4px ridge #d4a44b;
 }
 
