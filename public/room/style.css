@@ -1,4 +1,13 @@
 body {
+    background-image: url(/images/darknight.gif);
+    background-repeat: repeat;
+    background-color: #28245d;
+}
+
+main {
+    width: 80%;
+    height: 80%;
+    border-radius: 15px;
     background-image: url(https://bettysgraphics.neocities.org/images/backgrounds/flowers%2017.gif);
     background-repeat: repeat;
 }
