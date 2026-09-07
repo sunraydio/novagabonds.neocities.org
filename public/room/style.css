@@ -13,6 +13,12 @@ body {
     background-color: #28245d;
 }
 
+/* CONTAINERS */
+header {
+    margin: auto;
+    text-align: center;
+}
+
 main {
     width: 80em;
     height: 30em;
@@ -20,13 +26,13 @@ main {
     background-image: url(https://bettysgraphics.neocities.org/images/backgrounds/flowers%2017.gif);
     background-repeat: repeat;
     margin: auto;
+    margin-top: 0;
     border: 4px ridge #d4a44b;
+    padding: 1em;
 }
 
-header {
-    margin: auto;
-    text-align: center;
-}
+
+
 
 /* FONTS */
 p {
