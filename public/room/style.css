@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Midstar";
-    src: url("/fonts/Midstar.otf") format("opentype");
+  font-family: "Snow";
+  src: url(https://file.garden/aTQD7UdeYkPxCZbb/webdev/fonts/Snow%20White.ttf) format("truetype");
 }
 
 body {
@@ -31,7 +31,7 @@ p {
 }
 
 h1 {
-    font-family: "Midstar";
+    font-family: "Snow";
     font-size: 4em;
     color: white;
 }
