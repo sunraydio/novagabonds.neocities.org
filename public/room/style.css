@@ -10,6 +10,21 @@ main {
     border-radius: 15px;
     background-image: url(https://bettysgraphics.neocities.org/images/backgrounds/flowers%2017.gif);
     background-repeat: repeat;
-    margin: auto;
+    margin: auto 3em;
     border: 4px ridge #d4a44b;
+}
+
+header {
+    margin: auto;
+}
+
+/* FONTS */
+p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+}
+
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 4em;
 }
