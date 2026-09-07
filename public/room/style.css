@@ -5,8 +5,8 @@ body {
 }
 
 main {
-    width: 80%;
-    height: 80%;
+    width: 80em;
+    height: 40em;
     border-radius: 15px;
     background-image: url(https://bettysgraphics.neocities.org/images/backgrounds/flowers%2017.gif);
     background-repeat: repeat;
