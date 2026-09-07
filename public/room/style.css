@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Midstar";
-    src: url("/fonts/Midstar_Personal_Use.otf") format ("opentype");
+    src: url("/fonts/Midstar.otf") format ("opentype");
 }
 
 body {
@@ -11,7 +11,7 @@ body {
 
 main {
     width: 80em;
-    height: 40em;
+    height: 30em;
     border-radius: 15px;
     background-image: url(https://bettysgraphics.neocities.org/images/backgrounds/flowers%2017.gif);
     background-repeat: repeat;
