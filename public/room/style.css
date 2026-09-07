@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Midstar";
+    src: url("/fonts/Midstar.otf") format ("opentype");
+}
+
 body {
     background-image: url(/images/darknight.gif);
     background-repeat: repeat;
@@ -16,6 +21,7 @@ main {
 
 header {
     margin: auto;
+    text-align: center;
 }
 
 /* FONTS */
@@ -25,6 +31,7 @@ p {
 }
 
 h1 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: "Midstar";
     font-size: 4em;
+    color: white;
 }
