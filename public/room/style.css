@@ -60,6 +60,7 @@ nav {
     color: white;
     font-family: "typew";
     font-size: 1em;
+    transition: color 0.1s;
 }
 
 .navbutton:hover {
