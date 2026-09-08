@@ -17,14 +17,8 @@ body {
 /* CONTAINERS */
 .container {
     display: flex;
-    /*grid-gap: 0;
-    grid-template:
-        "header"
-        "nav"
-        "main";
-    grid-template-rows: 10em 2em 1fr;*/
     width: 70%;
-    height: 100%;
+    flex-direction: column;
 }
 
 header {
