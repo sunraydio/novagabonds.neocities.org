@@ -24,17 +24,15 @@ body {
 
 header {
     height: 10em;
-    background-color: blue;
 }
 
 main {
-    flex: 1;
+    flex-grow: 1;
     background-color: green;
 }
 
 nav {
     height: 2em;
-    background-color: red;
 }
 
 
