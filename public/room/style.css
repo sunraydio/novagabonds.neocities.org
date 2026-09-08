@@ -21,7 +21,7 @@ body {
     grid-template:
         "header"
         "nav"
-        "content"
+        "content";
     grid-template-rows: 10em 2em 1fr;
     width: 60%;
     height: 100%;
