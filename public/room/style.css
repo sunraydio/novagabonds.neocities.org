@@ -51,7 +51,7 @@ nav {
 
 .navcontainer {
     display: flex;
-    justify-items: flex-start;
+    justify-content: left;
     gap: 5px;
     width: 70%;
 }
