@@ -52,19 +52,17 @@ nav {
 .navcontainer {
     display: flex;
     justify-content: left;
-    gap: 5px;
+    gap: 10px;
     width: 70%;
 }
 
 .navbutton {
-    flex: 1;
     color: white;
     font-family: "typew";
     font-size: 0.6em;
     transition: color 0.1s;
     cursor: pointer;
     text-decoration: underline;
-    width: 10px;
 }
 
 .navbutton:hover {
