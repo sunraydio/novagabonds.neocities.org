@@ -32,8 +32,7 @@ body {
             rgb(29, 2, 61),
             rgb(26, 1, 49),
             rgba(24, 1, 46),
-            rgba(24, 1, 46, 0.7),
-            rgba(0, 0, 0, 0));
+            rgba(24, 1, 46);
     padding: 10em;
     padding-right: 15em;
     padding-top: 7em;
