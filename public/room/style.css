@@ -18,6 +18,7 @@ body {
 .container {
     display: flex;
     width: 70%;
+    height: 100%;
     flex-direction: column;
 }
 
