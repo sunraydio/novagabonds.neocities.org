@@ -34,10 +34,11 @@ body {
             rgba(9, 9, 48, 0.5),
             rgba(0, 0, 0, 0));
     padding: 10em;
+    padding-top: 7em;
 }
 
 header {
-    height: 6em;
+    height: 7em;
 }
 
 main {
