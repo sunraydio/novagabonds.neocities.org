@@ -7,6 +7,13 @@
 		<description>art, personal blog, etc</description>
 
         <item>
+            <title>8 Sep 2026 - MY ROOM!!!</title>
+            <link>https://novagabonds.neocities.org</link>
+            <description>ok i'm gonna be real i don't actually know what the hell is even gonna be in this page but go my true.... it's a launchpad for other pages so i'm excited to figure out how i wanna decorate it and make it my own. also never look at the css for my gradient bc it's horrendous.</description>
+            <pubDate>Mon, 8 Sep 2026 00:12:44 -0500</pubDate>
+        </item>
+
+        <item>
             <title>10 Jul 2026 - functional tweaks</title>
             <link>https://novagabonds.neocities.org</link>
             <description>fixed some broken links, js, & also put the navbar everywhere but also i'm realizing i probably should get some way to just generate page frames so i don't have to worry about it....</description>
