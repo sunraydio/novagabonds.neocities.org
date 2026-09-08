@@ -23,7 +23,7 @@ body {
 /* CONTAINERS */
 .container {
     display: flex;
-    width: 60%;
+    width: 65%;
     height: 50em;
     flex-direction: column;
     background-image: linear-gradient(to right,
