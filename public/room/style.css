@@ -3,6 +3,11 @@
   src: url(https://file.garden/aTQD7UdeYkPxCZbb/webdev/fonts/Snow%20White.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "typew";
+  src: url(https://file.garden/aTQD7UdeYkPxCZbb/webdev/fonts/TYPEW___.TTF) format("truetype");
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -43,16 +48,39 @@ nav {
     height: 2em;
 }
 
+.navcontainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbuttons {
+    flex: 1;
+    color: white;
+    font-family: "typew";
+    font-size: 1em;
+}
+
+.navbuttons:hover {
+    color: yellow;
+}
+
 
 
 /* FONTS */
 p {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "typew";
     font-size: 1em;
+    color: white;
 }
 
 h1 {
     font-family: "Snow";
     font-size: 4em;
     color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
