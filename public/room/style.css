@@ -50,7 +50,8 @@ nav {
 
 .navcontainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 10px;
     width: 70%;
 }
 
@@ -61,7 +62,7 @@ nav {
     font-size: 1em;
 }
 
-.navbuttons:hover {
+.navbutton:hover {
     color: yellow;
 }
 
