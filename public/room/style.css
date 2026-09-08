@@ -59,7 +59,7 @@ nav {
     flex: 1;
     color: white;
     font-family: "typew";
-    font-size: 1em;
+    font-size: 0.6em;
     transition: color 0.1s;
     cursor: pointer;
     text-decoration: underline;
