@@ -62,11 +62,11 @@ nav {
     font-size: 1em;
     transition: color 0.1s;
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .navbutton:hover {
     color: yellow;
-    background-color: green;
 }
 
 
