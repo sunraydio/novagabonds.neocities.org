@@ -16,29 +16,29 @@ body {
 
 /* CONTAINERS */
 .container {
-    display: grid;
-    grid-gap: 0;
+    display: flex;
+    /*grid-gap: 0;
     grid-template:
         "header"
         "nav"
         "main";
-    grid-template-rows: 10em 2em 1fr;
+    grid-template-rows: 10em 2em 1fr;*/
     width: 70%;
     height: 100%;
 }
 
 header {
-    grid-area: header;
+    height: 10em;
     background-color: blue;
 }
 
 main {
-    grid-area: main;
+    flex: 1;
     background-color: green;
 }
 
 nav {
-    grid-area: nav;
+    height: 2em;
     background-color: red;
 }
 
