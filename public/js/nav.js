@@ -16,6 +16,7 @@ document.querySelector(".navbar").innerHTML = `
             <ul>
             <a href="/about"><li>me!</li></a>
             <a href="/site"><li>this website</li></a>
+            <a href="/room"><li>my room</li></a>
             <a href="/manifesto"><li>manifesto</li></a>
             <a href="/credits"><li>credits</li></a>
             </ul>
@@ -48,7 +49,6 @@ document.querySelector(".navbar").innerHTML = `
             <a href="/resources"><li>resources</li></a>
             <a href="/recs"><li>media recs</li></a>
             <a href="/newsstand"><li>literary recs</li></a>
-            <a href="/room"><li>my room</li></a>
             </ul>
           </div>
         </details>
