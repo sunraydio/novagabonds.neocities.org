@@ -20,6 +20,9 @@ body {
     width: 70%;
     height: 50em;
     flex-direction: column;
+    background-image: linear-gradient(to right,
+            rgba(9, 0, 33, 1),
+            rgba(0, 0, 0, 0));
 }
 
 header {
@@ -28,7 +31,6 @@ header {
 
 main {
     flex: 1;
-    background-color: green;
 }
 
 nav {
