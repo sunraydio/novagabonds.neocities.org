@@ -4,8 +4,8 @@
 }
 
 @font-face {
-  font-family: "Rosehot";
-  src: url("/fonts/Rosehot.ttf") format("truetype");
+  font-family: "typew";
+  src: url(https://file.garden/aTQD7UdeYkPxCZbb/webdev/fonts/TYPEW___.TTF) format("truetype");
 }
 
 
@@ -28,8 +28,15 @@ h1 {
 
 p {
     color: white;
-    font-family: "Rosehot";
-    font-size: 1em; 
+    font-family: "typew";
+    font-size: 4em; 
+}
+
+blockquote {
+    color: white;
+    font-family: "typew";
+    font-size: 5em;
+    margin-left: 4em;
 }
 
 /* blorbo page styling */
