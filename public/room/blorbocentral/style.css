@@ -61,6 +61,19 @@ main {
     overflow: hidden;
 }
 
+header {
+    display: flex;
+    width: 100%;
+}
+
+header a {
+    color: rgb(237, 186, 33);
+}
+
+header a:hover {
+    color: white;
+}
+
 .frameContainer {
     background-color: rgb(64, 21, 33);
     background-image: url(https://file.garden/aTQD7UdeYkPxCZbb/webdev/wallpattern.jpg);
