@@ -71,6 +71,7 @@ header {
     background-color: rgb(237, 186, 33);
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
+    margin-right: -2em;
 }
 
 header a {
