@@ -65,10 +65,12 @@ header {
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-bottom: 2em;
 }
 
 header a {
     color: rgb(237, 186, 33);
+    margin: 15px;
 }
 
 header a:hover {
