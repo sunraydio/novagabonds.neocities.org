@@ -63,7 +63,7 @@ main {
 
 header {
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     padding: 5px;
     flex-direction: row;
     width: 100%;
