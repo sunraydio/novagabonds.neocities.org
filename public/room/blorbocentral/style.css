@@ -27,10 +27,6 @@ main {
     background-color: rgb(64, 21, 33);
 }
 
-.mira .frameContainer {
-    background-color: rgb(28, 2, 69);
-}
-
 .infoContainer {
     flex-grow: 1;
     background-color: rgb(140, 140, 250);
@@ -59,4 +55,13 @@ main {
 
 .bottomImg img {
     height: 600px;
+}
+
+
+.mira .frameContainer {
+    background-color: rgb(28, 2, 69);
+}
+
+.mira .infoContainer {
+    background-color: rgb(30, 8, 97);
 }
