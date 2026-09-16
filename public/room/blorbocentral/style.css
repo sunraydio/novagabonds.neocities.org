@@ -69,6 +69,8 @@ header {
     width: 100%;
     margin-bottom: 4em;
     background-color: rgb(237, 186, 33);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 header a {
