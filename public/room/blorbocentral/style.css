@@ -63,14 +63,11 @@ main {
 
 header {
     display: flex;
-    position: absolute;
-    top: 0;
-    right: 0;
     justify-content: flex-end;
     padding: 5px;
     flex-direction: row;
     width: 100%;
-    margin-bottom: 1.5em;
+    margin-bottom: 7em;
     background-color: rgb(237, 186, 33);
 }
 
@@ -95,6 +92,7 @@ header a:hover {
     flex-grow: 1;
     background-color: rgb(140, 140, 250);
     padding: 7em;
+    padding-top: 5em;
     padding-right: 2em;
     overflow-y: scroll;
 }
