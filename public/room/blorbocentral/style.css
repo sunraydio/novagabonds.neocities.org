@@ -46,7 +46,7 @@ blockquote {
     font-size: 1em;
     margin-left: 4em;
     margin-bottom: 1em;
-    border-left: 3px solid rgb(0, 183, 255);
+    border-left: 5px solid rgb(0, 183, 255);
     padding-left: 15px;
 }
 
@@ -70,6 +70,12 @@ main {
     background-color: rgb(140, 140, 250);
     padding: 7em;
     overflow-y: scroll;
+}
+
+.infoContainer img {
+    width: 60%;
+    margin: auto;
+    border-radius: 8px;
 }
 
 .frame {
