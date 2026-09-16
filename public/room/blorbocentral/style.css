@@ -13,6 +13,10 @@
   src: url(https://file.garden/aTQD7UdeYkPxCZbb/webdev/fonts/Snow%20White.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "Kelvinch";
+  src: url("/fonts/Kelvinch-Roman.otf") format("opentype");
+}
 
 * {
     margin: 0;
@@ -38,9 +42,10 @@ p {
 
 blockquote {
     color: white;
-    font-family: "typew";
-    font-size: 1em;
+    font-family: "Kelvinch";
+    font-size: 2em;
     margin-left: 4em;
+    margin-bottom: 1em;
 }
 
 /* blorbo page styling */
