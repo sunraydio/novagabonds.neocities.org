@@ -183,7 +183,8 @@ footer {
 }
 
 .tab-link:hover {
-  color: white;
+  color: rgb(52, 79, 131);
+  font-style: bold;
 }
 
 .tab-content {
