@@ -14,6 +14,7 @@ main {
 
 frameContainer {
     background-color: rgb(28, 2, 69);
+    width: 50%;
 }
 
 infoContainer {
