@@ -8,6 +8,10 @@
   src: url(https://file.garden/aTQD7UdeYkPxCZbb/webdev/fonts/TYPEW___.TTF) format("truetype");
 }
 
+@font-face {
+  font-family: "Snow";
+  src: url(https://file.garden/aTQD7UdeYkPxCZbb/webdev/fonts/Snow%20White.ttf) format("truetype");
+}
 
 
 * {
@@ -35,7 +39,7 @@ p {
 blockquote {
     color: white;
     font-family: "typew";
-    font-size: 5em;
+    font-size: 2em;
     margin-left: 4em;
 }
 
