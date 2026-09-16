@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "Porto-Qastelo";
+  src: url("/fonts/Porto-Qastelo.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Rosehot";
+  src: url("/fonts/Rosehot.ttf") format("truetype");
+}
+
+
 
 * {
     margin: 0;
@@ -8,8 +19,21 @@ body {
     background-color: rgb(138, 72, 220);
 }
 
-h1 {
+.mira body {
     color: white;
+}
+
+h1 {
+    color: inherit;
+    font-family: "Porto-Qastelo";
+    font-size: 2em;
+    line-height: 1em;
+}
+
+p {
+    color: inherit;
+    font-family: "Rosehot";
+    font-size: 1em; 
 }
 
 /* blorbo page styling */
