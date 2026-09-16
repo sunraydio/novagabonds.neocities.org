@@ -10,6 +10,7 @@ main {
     height: 100%;
     overflow-y: scroll;
     flex-direction:row;
+    flex-wrap: nowrap;
 }
 
 frameContainer {
