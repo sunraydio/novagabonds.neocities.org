@@ -2,6 +2,10 @@ body {
     background-color: rgb(138, 72, 220);
 }
 
+h1 {
+    color: white;
+}
+
 /* blorbo page styling */
 main {
     position: fixed;
