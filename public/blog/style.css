@@ -187,6 +187,10 @@ footer {
   font-style: bold;
 }
 
+.tab-link:first-child {
+  margin-top: 10px;
+}
+
 .tab-content {
   display:none;
 }
