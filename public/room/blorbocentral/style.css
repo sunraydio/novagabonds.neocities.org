@@ -66,17 +66,18 @@ header {
     flex-direction: row;
     width: 100%;
     margin-bottom: 1.5em;
+    background-color: rgb(237, 186, 33);
 }
 
 header a {
-    color: rgb(237, 186, 33);
+    color: blue;
     margin-right: 10px;
     transition: color 0.5s;
     font-family: "Kelvinch";
 }
 
 header a:hover {
-    color: white;
+    color: black;
 }
 
 .frameContainer {
