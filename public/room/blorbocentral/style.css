@@ -50,3 +50,7 @@ main {
     top: 40px;
     left: 40px;
 }
+
+.bottomImg img {
+    height: 600px;
+}
