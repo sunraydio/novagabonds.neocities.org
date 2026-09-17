@@ -111,6 +111,8 @@ header a:hover {
 }
 
 .fullscreenImg {
+    margin-top: 4em;
+    margin-bottom: 4em;
     height: 20em;
     margin-left: -7em;
     background-image: url(https://file.garden/aTQD7UdeYkPxCZbb/webdev/cosmos_1317022495.jpeg);
