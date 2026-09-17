@@ -116,11 +116,12 @@ header a:hover {
 .frame {
     position: relative;
     top: 0;
-    left:0;
+    left: 0;
+    margin: auto;
 }
 
 .topImg {
-    size: 80%;
+    size: 600px;
     position: relative;
     top: 0;
     left: 0;
