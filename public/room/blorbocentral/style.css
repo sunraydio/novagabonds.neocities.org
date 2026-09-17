@@ -113,6 +113,7 @@ header a:hover {
 .fullscreenImg {
     height: 20em;
     margin-left: -7em;
+    object-fit: contain;
 }
 
 .infoContainer .fullscreenImg img {
