@@ -132,8 +132,8 @@ header a:hover {
 .bottomImg {
     position: absolute;
     top: 100px;
-    left: 190px;
-    height: 560px;
+    left: 100px;
+    height: 460px;
 }
 
 .bottomImg img {
