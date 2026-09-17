@@ -110,6 +110,11 @@ header a:hover {
     margin-bottom: 1.4em;
 }
 
+.infoContainer .fullscreenImg img {
+    width: 100%;
+    border-radius: 0;
+}
+
 .mainContent {
     padding-right: 5em;
 }
@@ -139,10 +144,6 @@ header a:hover {
 
 .bottomImg img {
     height: 600px;
-}
-
-.quote {
-    margin-bottom: 18em;
 }
 
 
