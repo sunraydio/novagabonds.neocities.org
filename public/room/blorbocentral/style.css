@@ -89,7 +89,7 @@ header a:hover {
 .frameContainer {
     background-color: rgb(64, 21, 33);
     background-image: url(https://file.garden/aTQD7UdeYkPxCZbb/webdev/wallpattern.jpg);
-    background-blend-mode: overlay;
+    background-blend-mode: multiply;
 }
 
 .infoContainer {
@@ -139,7 +139,7 @@ header a:hover {
 
 
 .mira .frameContainer {
-    background-color: rgb(165, 128, 250);
+    background-color: rgb(75, 65, 182);
 }
 
 .mira .infoContainer {
