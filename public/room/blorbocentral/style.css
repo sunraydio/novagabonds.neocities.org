@@ -75,10 +75,11 @@ header {
 }
 
 header a {
-    color: blue;
+    color: rgb(49, 25, 165);
     margin-right: 10px;
     transition: color 0.5s;
     font-family: "Kelvinch";
+    text-decoration: dotted;
 }
 
 header a:hover {
