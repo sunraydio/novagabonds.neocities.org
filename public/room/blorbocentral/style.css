@@ -141,6 +141,10 @@ header a:hover {
     height: 600px;
 }
 
+.quote {
+    margin-bottom: 10em;
+}
+
 
 .mira .frameContainer {
     background-color: rgb(75, 65, 182);
