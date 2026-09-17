@@ -113,12 +113,7 @@ header a:hover {
 .fullscreenImg {
     height: 20em;
     margin-left: -7em;
-    object-fit: contain;
-}
-
-.infoContainer .fullscreenImg img {
-    width: 100%;
-    border-radius: 0;
+    background-image: url(https://file.garden/aTQD7UdeYkPxCZbb/webdev/cosmos_1317022495.jpeg);
 }
 
 .mainContent {
