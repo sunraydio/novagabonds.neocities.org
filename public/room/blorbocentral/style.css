@@ -173,6 +173,10 @@ header a:hover {
   transform: rotateZ(45deg);
 }
 
+.down-arrow, .down-arrow:after {
+    color: rgb(189, 145, 14);
+}
+
 
 .mira .frameContainer {
     background-color: rgb(75, 65, 182);
