@@ -87,6 +87,7 @@ header a:hover {
 }
 
 .frameContainer {
+    width: 50%;
     background-color: rgb(64, 21, 33);
     background-image: url(https://file.garden/aTQD7UdeYkPxCZbb/webdev/wallpattern.jpg);
     background-blend-mode: multiply;
