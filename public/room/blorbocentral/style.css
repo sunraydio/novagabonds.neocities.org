@@ -110,6 +110,10 @@ header a:hover {
     margin-bottom: 1.4em;
 }
 
+.fullscreenImg {
+    height: 20em;
+}
+
 .infoContainer .fullscreenImg img {
     width: 100%;
     border-radius: 0;
