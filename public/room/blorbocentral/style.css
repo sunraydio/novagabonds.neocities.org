@@ -96,7 +96,6 @@ header a:hover {
     background-color: rgb(140, 140, 250);
     padding: 7em;
     padding-top: 5em;
-    padding-right: 2em;
     overflow-y: scroll;
 }
 
@@ -106,6 +105,10 @@ header a:hover {
     border-radius: 8px;
     margin-top: 1.4em;
     margin-bottom: 1.4em;
+}
+
+.mainContent {
+    padding-right: 2em;
 }
 
 .frame {
