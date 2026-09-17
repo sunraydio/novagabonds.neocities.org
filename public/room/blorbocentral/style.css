@@ -120,6 +120,7 @@ header a:hover {
 }
 
 .topImg {
+    size: 80%;
     position: relative;
     top: 0;
     left: 0;
@@ -139,7 +140,7 @@ header a:hover {
 
 
 .mira .frameContainer {
-    background-color: rgb(38, 33, 96);
+    background-color: rgb(75, 65, 182);
 }
 
 .mira .infoContainer {
