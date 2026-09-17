@@ -97,7 +97,7 @@ header a:hover {
     flex-grow: 1;
     background-color: rgb(140, 140, 250);
     padding: 7em;
-    padding-top: 5em;
+    padding-top: 10em;
     padding-right: 0;
     overflow-y: scroll;
 }
