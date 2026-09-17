@@ -118,14 +118,14 @@ header a:hover {
     position: relative;
     top: 0;
     left: 0;
-    margin: auto;
+    padding: 4em;
 }
 
 .topImg {
     width: 600px;
     position: relative;
     top: 0;
-    left: 10%;
+    left: 0;
     z-index: 1;
 }
 
