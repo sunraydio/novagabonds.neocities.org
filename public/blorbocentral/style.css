@@ -24,7 +24,7 @@
 }
 
 body {
-    background-color: rgb(138, 72, 220);
+    background-color: rgb(3, 6, 61);
 }
 
 h1 {
@@ -79,6 +79,10 @@ blockquote {
     background-color: red;
     width: 80%;
     border-radius: 8px;
+}
+
+.blorboHome body {
+    background-image: url(/images/darknight.gif);
 }
 
 
