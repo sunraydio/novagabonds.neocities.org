@@ -50,6 +50,27 @@ blockquote {
     padding-left: 15px;
 }
 
+
+/* index page styling */
+
+.top {
+    margin: 3em auto;
+    padding: 2em;
+    background-color: yellow;
+    text-align: center;
+}
+
+.mainPage {
+    margin: auto;
+    padding: 4em;
+    background-color: red;
+}
+
+
+
+
+
+
 /* blorbo page styling */
 main {
     position: fixed;
