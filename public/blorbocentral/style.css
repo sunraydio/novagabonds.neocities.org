@@ -213,3 +213,7 @@ header a:hover {
 .bakugou header a:hover {
     color: rgb(25, 29, 12);
 }
+
+.bakugou .fullscreenImg {
+    background-image: url(https://file.garden/aTQD7UdeYkPxCZbb/webdev/bk.jpg);
+}
