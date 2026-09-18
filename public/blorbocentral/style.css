@@ -207,5 +207,9 @@ header a:hover {
 }
 
 .bakugou header a {
-    color: rgb(255, 200, 89);
+    color: rgb(88, 87, 15);
+}
+
+.bakugou header a:hover {
+    color: rgb(25, 29, 12);
 }
