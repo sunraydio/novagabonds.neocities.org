@@ -34,6 +34,13 @@ h1 {
     line-height: 1.2em;
 }
 
+h2 {
+    color: white;
+    font-family: "Porto-Qastelo";
+    font-size: 4em;
+    line-height: 1em;
+}
+
 p {
     color: white;
     font-family: "Kelvinch";
