@@ -59,6 +59,7 @@ blockquote {
     background-color: yellow;
     text-align: center;
     width: 50%;
+    border-radius: 8px;
 }
 
 .mainPage {
@@ -66,6 +67,7 @@ blockquote {
     padding: 4em;
     background-color: red;
     width: 80%;
+    border-radius: 8px;
 }
 
 
