@@ -195,15 +195,15 @@ header a:hover {
 }
 
 .bakugou blockquote {
-    border-color: black;
+    border-color: rgb(255, 182, 37);
 }
 
 .bakugou .down-arrow, .bakugou .down-arrow:after {
-    color: rgb(156, 60, 0);
+    color: rgb(222, 85, 0);
 }
 
 .bakugou header {
-    background-color: black;
+    background-color: rgb(255, 182, 37);
 }
 
 .bakugou header a {
