@@ -76,14 +76,11 @@ blockquote {
 .mainPage {
     margin: auto;
     padding: 4em;
-    background-color: red;
+    background-color: rgb(70, 82, 170);
     width: 80%;
     border-radius: 8px;
 }
 
-body .blorboHome {
-    background-image: url(/images/darknight.gif);
-}
 
 
 
