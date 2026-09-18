@@ -185,3 +185,11 @@ header a:hover {
 .mira .infoContainer {
     background-color: rgb(30, 8, 97);
 }
+
+.bakugou .frameContainer {
+    background-color: rgb(104, 0, 28);
+}
+
+.bakugou .infoContainer {
+    background-color: rgb(255, 98, 0);
+}
