@@ -81,7 +81,7 @@ blockquote {
     border-radius: 8px;
 }
 
-.blorboHome body {
+body .blorboHome {
     background-image: url(/images/darknight.gif);
 }
 
