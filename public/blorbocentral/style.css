@@ -191,5 +191,13 @@ header a:hover {
 }
 
 .bakugou .infoContainer {
-    background-color: rgb(255, 98, 0);
+    background-color: rgb(156, 60, 0);
+}
+
+.bakugou blockquote {
+    border-left: black;
+}
+
+.bakugou .down-arrow, .bakugou .down-arrow:after {
+    color: rgb(156, 60, 0);
 }
